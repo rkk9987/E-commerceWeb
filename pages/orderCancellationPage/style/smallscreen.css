@@ -1,0 +1,112 @@
+
+
+@media (min-width:769px ) and (max-width:1024px){
+    :root{
+        --fnt:16px;
+    }
+    body{
+         height: 800px;
+    }
+            
+
+    /* Styling the First Section  */
+    #customerDetail{
+        width: 95%;
+        height: 160px;
+    }
+.deliveryAddress, .phoneNumber, .emailAddress {
+    
+    font-size:var(--fnt);
+    line-height: 30px;
+     
+}
+
+ /* Styling the Container  */
+.detailContainer{
+    
+    height: 91px;
+   width: 93%;
+}
+.detail1{
+    width: 283px;
+}
+.detail1Container {
+ 
+    font-size: 13px;
+ 
+}
+.address {
+   
+    font-size: 11px;
+}
+.number, .email {
+    
+    font-size: 13px;
+    line-height: 120.5%;
+ 
+}
+  
+
+
+    /* Styling the Second Section  */
+
+
+#productDetails{
+    width: 95%;
+    height: 311px;
+}
+
+.productDetailsContainer{
+    width: 95%;
+    height: 74%;
+}
+
+
+
+    /* Styling the Upper Container of Down Section  */
+
+
+    
+.productImage {
+    width: 109px;
+    height: 128px;
+     
+}
+.productName,.deliveryDate,.color, .size, .qty,.confirmation,.price,.actualPrice,.discount{
+    font-size: 15px;
+}
+.productColor{
+    width: 245px;
+}
+.productPrice{
+    margin: 0;
+}
+/* #border {
+    
+    width: 62.54px;
+    left: 32.2%;
+    top: 53%;
+} */
+.deliveryDetails{
+    width: 30%;
+}
+.cancel{
+    width: 122px;
+    height: 27px;
+}
+
+
+     /* Adjusting the components of downContainer of Second Section   */
+
+
+.circleOrdered,.circleShipped,.circleOutforDelivery,.circleDelivered {
+    width: 26px;
+    height: 26px;
+    
+}
+.statusOrdered,.statusShipped,.statusOutforDelivery,.statusDelivered,.statusDate{
+    font-size: 11px;
+}
+
+ 
+}

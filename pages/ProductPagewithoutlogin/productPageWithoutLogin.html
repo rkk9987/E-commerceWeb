@@ -1,0 +1,1369 @@
+<!DOCTYPE html>
+<html id="html" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/filter.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <!-- This is a link of bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- this is css link -->
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style/style1.css">
+    <link href="style/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/mobile.css">
+    <link rel="stylesheet" href="style/small.css">
+    <link rel="stylesheet" href="style/tablet.css">
+    <link rel="stylesheet" href="style/navBar.css">
+    <link rel="stylesheet" href="style/homepage.css">
+    <link rel="stylesheet" href="style/myAccount.css">
+
+</head>
+
+<body>
+   
+    <div class="navBarBoxContainer">
+        <div class="navBar">
+     <div class="navBarBox">
+         <div class="navBarContainer">
+             <div class="logoContainer">
+                 <img src="images/logo.svg" alt="" class="companyLogo">
+             </div>
+             <div class="menus">
+
+                 <a href="../ProductPagewithoutlogin/productPageWithoutLogin.html">
+                     <li>MEN WEAR</li>
+                 </a> <a href="../ProductPagewithoutlogin/productPageWithoutLogin.html">
+                     <li>WOMEN WEAR</li>
+                 </a> <a href="../ProductPagewithoutlogin/productPageWithoutLogin.html">
+                     <li>KIDS WEAR</li>
+                 </a> <a href="">
+                     <li>DEALS</li>
+                 </a> <a href="">
+                     <li>ACCESSORIES</li>
+                 </a> <a href="">
+                     <li>NEW ARRIVALS</li>
+                 </a>
+             </div>
+             <div class="searchBar">
+                 <div class="searchBarContainer">
+                     <input class="searchHere" placeholder="search here">
+                     <img class="searchLogo" src="icons/search_black_24dp.svg" alt="Search Logo">
+                 </div>
+             </div>
+             <!-- <input type="text"> -->
+             <div class="accountSection">
+                 <div class="myAccountContainer">
+                     <img class="accountLogo" src="icons/my_account.svg" alt="account logo">
+                     <span class="myAccountTitle">
+                         My Account
+                     </span>
+                 </div>
+                 <div class="cart">
+                     <div class="productNumber">0</div>
+                     <img src="icons/bag.svg" alt="cart Logo" class="cartLogo">
+                     <span class="cartTitle">Cart</span>
+                 </div>
+             </div>
+             <div class="hamBurgerMenu">
+                 <img src="icons/hamBurger.svg" alt="">
+             </div>
+         </div>
+
+         <div class="navDownContainer" style="display: none !important;">
+             <div class="menusMobile">
+                  
+                     <a href= "../ProductPagewithoutlogin/productPageWithoutLogin.html">
+                         <li>MEN WEAR</li>
+                     </a> <a href= "../ProductPagewithoutlogin/productPageWithoutLogin.html">
+                         <li>WOMEN WEAR</li>
+                     </a> <a href= "../ProductPagewithoutlogin/productPageWithoutLogin.html">
+                         <li>KIDS WEAR</li>
+                     </a> <a href= "../ProductPagewithoutlogin/productPageWithoutLogin.html">
+                         <li>DEALS</li>
+                     </a> <a href="">
+                         <li>ACCESSORIES</li>
+                     </a> <a href="">
+                         <li>NEW ARRIVALS</li>
+                     </a>
+                 
+             </div>
+             <div class="accountSectionMobile">
+                 <div class="myAccountContainer">
+                     <img class="accountLogo" src="icons/my_account.svg" alt="account logo">
+                     <span class="myAccountTitle">
+                         My Account
+                     </span>
+                 </div>
+                 <div class="cart">
+                     <div class="productNumber">0</div>
+                     <img src="icons/bag.svg" alt="cart Logo" class="cartLogo">
+                     <span class="cartTitle">Cart</span>
+                 </div>
+             </div>
+         </div>
+     </div>
+        </div>
+    
+ </nav>
+ <section class="myAccountDropDown">
+     <div class="myAccountDropDownContainer">
+         <div class="myAccountUpContainer">
+             <div class="welcomeSignBox">
+                 <div class="welcomeContainer">
+                     Hey, Welcome !!
+                 </div>
+                 <div class="signInContainer">
+                     <button class="signInButton">SIGN IN</button>
+                     <button class="registerButton">REGISTER
+                     </button>
+                 </div>
+             </div>
+         </div>
+         <div class="myAccountDownContainer">
+             <hr>
+                 <div class="lists"><a href="../My Profile Page/Wishlist/index.html"><img src="icons/akar-icons_heart (1).svg"><span>
+                             Wishlist</span></a></div>
+                             <hr>
+                 <div class="lists"><a href="../My Profile Page/Order Placed/index.html" > <img src="icons/carbon_order-details.svg"><span>
+                             Orders</span></a></div><hr>
+                 <div class="lists"><a href="../My Profile Page/discount/discount.html"> <img src="icons/tabler_shopping-cart-discount.svg"><span>
+                             Discounts</span></a></div><hr>
+                             <div class="lists"><a href="../My Profile Page/discount/discount.html"> <img src="icons/Group (7).svg"><span>
+                                 Supercoins</span></a></div><hr>
+                 <div class="lists"><a href="../My Profile Page/Saved_address/index.html"> <img src="icons/Vector (5).svg"><span>
+                             Saved Address</span> </a></div><hr>
+                 <div class="lists"><a href="../My Profile Page/Contact us/index.html"> <img src="icons/cil_contact.svg"><span>
+                             Contact us</span></a></div><hr>
+                 <div class="lists"><a href="../My Profile Page/FAQ`s/index.html"> <img src="icons/Group (8).svg"><span>
+                             FAQ's</span></a></div>
+             
+         </div>
+     </div>
+
+ </section>
+</div> 
+<script src="script/navBar.js"></script>
+    <section class="products">
+        <div class="sectionContainer">
+
+
+            <!-- structuring filter Section ..................  -->
+
+
+            <div class="filterSection">
+                <div class="filterContainer">
+                    <div class="containerHeading">
+                        <span class="filterHeading">FILTERS</span>
+                        <span class="clearAll">Clear all</span>
+                        <img id="back" src="icons/arrow_back_black_24dp.svg">
+                        <span class="filterHeadingMobile">FILTER</span>
+                        <span class="clearAllMobile">Clear All</span>
+                    </div>
+
+
+                    <!-- sructuring Filter Down Container ..........  -->
+
+
+                    <div class="filterDownContainer">
+                        <div class="filterBox">
+                            <div class="filterName">
+                                Price Range
+                            </div>
+                            <div class="checkboxes">
+                                <div class="input"><input type="checkbox" id="Below 500" name="Below 500">
+                                    <label class="filterLabel" for="Below 500">Below 500</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="priceRange1" name="priceRange1">
+                                    <label class="filterLabel" for="priceRange1">Rs. 500 to Rs. 1000</label>
+                                </div>
+                                <div class="input"> <input type="checkbox" id="priceRange2" name="priceRange2">
+                                    <label class="filterLabel" for="priceRange2"> Rs. 1000 to Rs. 2000</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="priceRange3" name="priceRange3">
+                                    <label class="filterLabel" for="priceRange3"> Above 2000</label>
+                                </div>
+
+
+                            </div>
+
+                            <div class="viewMore" style="display: none !important;">+ View 18 More</div>
+                            <div class="viewLess" style="display: none !important;">View Less</div>
+                            <div class="downBorder"></div>
+                        </div>
+                        <div class="filterBox">
+                            <div class="filterName">
+                                Color
+                            </div>
+                            <div class="checkboxes">
+                                <div class="input"><input type="checkbox" id="Black" name="Black">
+                                    <label class="filterLabel" for="Black">Black</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="Blue" name="Blue">
+                                    <label class="filterLabel" for="Blue">Blue</label>
+                                </div>
+                                <div class="input"> <input type="checkbox" id="White" name="White">
+                                    <label class="filterLabel" for="White">White</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="Olive" name="Olive">
+                                    <label class="filterLabel" for="Olive">Olive</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="Olive" name="Olive">
+                                    <label class="filterLabel" for="Olive">Olive</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="Olive" name="Olive">
+                                    <label class="filterLabel" for="Olive">Olive</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="Olive" name="Olive">
+                                    <label class="filterLabel" for="Olive">Olive</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="Olive" name="Olive">
+                                    <label class="filterLabel" for="Olive">Olive</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="Olive" name="Olive">
+                                    <label class="filterLabel" for="Olive">Olive</label>
+                                </div>
+
+                            </div>
+                            <div class="viewMore">+ View 18 More</div>
+                            <div class="viewLess">View Less</div>
+                            <div class="downBorder"></div>
+                        </div>
+                        <div class="filterBox">
+                            <div class="filterName">
+                                Sleeve
+                            </div>
+                            <div class="checkboxes">
+                                <div class="input"><input type="checkbox" id="Half Sleeve" name="Half Sleeve">
+                                    <label class="filterLabel" for="Half Sleeve">Half Sleeve</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="Full Sleeve" name="Full Sleeve">
+                                    <label class="filterLabel" for="Full Sleeve">Full Sleeve</label>
+                                </div>
+                                <div class="input"> <input type="checkbox" id="Short Sleeve" name="Short Sleeve">
+                                    <label class="filterLabel" for="Short Sleeve"> Short Sleeve</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="Long Sleeve" name="Long Sleeve">
+                                    <label class="filterLabel" for="Long Sleeve">Long Sleeve</label>
+                                </div>
+                                <div class="input"> <input type="checkbox" id="Short Sleeve" name="Short Sleeve">
+                                    <label class="filterLabel" for="Short Sleeve"> Short Sleeve</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="Long Sleeve" name="Long Sleeve">
+                                    <label class="filterLabel" for="Long Sleeve">Long Sleeve</label>
+                                </div>
+                                <div class="input"> <input type="checkbox" id="Short Sleeve" name="Short Sleeve">
+                                    <label class="filterLabel" for="Short Sleeve"> Short Sleeve</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="Long Sleeve" name="Long Sleeve">
+                                    <label class="filterLabel" for="Long Sleeve">Long Sleeve</label>
+                                </div>
+                                <div class="input"> <input type="checkbox" id="Short Sleeve" name="Short Sleeve">
+                                    <label class="filterLabel" for="Short Sleeve"> Short Sleeve</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="Long Sleeve" name="Long Sleeve">
+                                    <label class="filterLabel" for="Long Sleeve">Long Sleeve</label>
+                                </div>
+                            </div>
+                            <div class="viewMore">+ View 18 More</div>
+                            <div class="viewLess">View Less</div>
+                            <div class="downBorder"></div>
+                        </div>
+                        <div class="filterBox">
+                            <div class="filterName">
+                                Fabric
+                            </div>
+                            <div class="checkboxes">
+                                <div class="input"><input type="checkbox" id="Cotton Blend" name="Cotton Blend">
+                                    <label class="filterLabel" for="Cotton Blend">Cotton Blend</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="100% Cotton" name="100% Cotton">
+                                    <label class="filterLabel" for="100% Cotton">100% Cotton</label>
+                                </div>
+                                <div class="input"> <input type="checkbox" id="Single Jersey" name="Single Jersey">
+                                    <label class="filterLabel" for="Single Jersey">Single Jersey</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="Pique" name="Pique">
+                                    <label class="filterLabel" for="Pique"> Pique</label>
+                                </div>
+                                <div class="input"> <input type="checkbox" id="Single Jersey" name="Single Jersey">
+                                    <label class="filterLabel" for="Single Jersey">Single Jersey</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="Pique" name="Pique">
+                                    <label class="filterLabel" for="Pique"> Pique</label>
+                                </div>
+                                <div class="input"> <input type="checkbox" id="Single Jersey" name="Single Jersey">
+                                    <label class="filterLabel" for="Single Jersey">Single Jersey</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="Pique" name="Pique">
+                                    <label class="filterLabel" for="Pique"> Pique</label>
+                                </div>
+                            </div>
+                            <div class="viewMore">+ View 7 More</div>
+                            <div class="viewLess">View Less</div>
+                            <div class="downBorder"></div>
+                        </div>
+                        <div class="filterBox">
+                            <div class="filterName">
+                                Neck
+                            </div>
+                            <div class="checkboxes">
+                                <div class="input"><input type="checkbox" id="Round" name="Round">
+                                    <label class="filterLabel" for="Round">Round</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="CrewNeck" name="CrewNeck">
+                                    <label class="filterLabel" for="CrewNeck">Crew Neck</label>
+                                </div>
+                                <div class="input"> <input type="checkbox" id="PolloCollar" name="PolloCollar">
+                                    <label class="filterLabel" for="PolloCollar">Pollo Collar</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="Polo" name="Polo">
+                                    <label class="filterLabel" for="Polo"> Polo</label>
+                                </div>
+                                <div class="input"> <input type="checkbox" id="PolloCollar" name="PolloCollar">
+                                    <label class="filterLabel" for="PolloCollar">Pollo Collar</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="Polo" name="Polo">
+                                    <label class="filterLabel" for="Polo"> Polo</label>
+                                </div>
+                                <div class="input"> <input type="checkbox" id="PolloCollar" name="PolloCollar">
+                                    <label class="filterLabel" for="PolloCollar">Pollo Collar</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="Polo" name="Polo">
+                                    <label class="filterLabel" for="Polo"> Polo</label>
+                                </div>
+                            </div>
+                            <div class="viewMore">+ View 12 More</div>
+                            <div class="viewLess">View Less</div>
+                            <div class="downBorder"></div>
+                        </div>
+                        <div class="filterBox">
+                            <div class="filterName">
+                                Pattern
+                            </div>
+                            <div class="checkboxes">
+                                <div class="input"><input type="checkbox" id="Printed" name="Printed">
+                                    <label class="filterLabel" for="Printed">Printed</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="Solid" name="Solid">
+                                    <label class="filterLabel" for="Solid">Solid</label>
+                                </div>
+                                <div class="input"> <input type="checkbox" id="Print" name="Print">
+                                    <label class="filterLabel" for="Print">Print</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="Stripped" name="Stripped">
+                                    <label class="filterLabel" for="Stripped">Stripped</label>
+                                </div>
+                                <div class="input"> <input type="checkbox" id="Print" name="Print">
+                                    <label class="filterLabel" for="Print">Print</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="Stripped" name="Stripped">
+                                    <label class="filterLabel" for="Stripped">Stripped</label>
+                                </div>
+                                <div class="input"> <input type="checkbox" id="Print" name="Print">
+                                    <label class="filterLabel" for="Print">Print</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="Stripped" name="Stripped">
+                                    <label class="filterLabel" for="Stripped">Stripped</label>
+                                </div>
+                            </div>
+                            <div class="viewMore">+ View 6 More</div>
+                            <div class="viewLess">View Less</div>
+                            <div class="downBorder"></div>
+                        </div>
+                        <div class="filterBox">
+                            <div class="filterName">
+                                Fit
+                            </div>
+                            <div class="checkboxes">
+                                <div class="input"><input type="checkbox" id="Fit" name="Fit">
+                                    <label class="filterLabel" for="Fit">Fit</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="SlimFit" name="SlimFit">
+                                    <label class="filterLabel" for="SlimFit">Slim Fit</label>
+                                </div>
+                                <div class="input"> <input type="checkbox" id="Regular" name="Regular">
+                                    <label class="filterLabel" for="Regular">Regular</label>
+                                </div>
+                            </div>
+                            <div class="viewMore" style="display: none !important;">+ View 18 More</div>
+                            <div class="viewLess" style="display: none !important;">View Less</div>
+                            <div class="downBorder"></div>
+                        </div>
+                        <div class="filterBox">
+                            <div class="filterName">
+                                Size
+                            </div>
+                            <div class="checkboxes">
+                                <div class="input"><input type="checkbox" id="S" name="S">
+                                    <label class="filterLabel" for="S"> S</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="M" name="M">
+                                    <label class="filterLabel" for="M">M</label>
+                                </div>
+                                <div class="input"> <input type="checkbox" id="L" name="L">
+                                    <label class="filterLabel" for="L">L</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="XL" name="XL">
+                                    <label class="filterLabel" for="XL">XL</label>
+                                </div>
+                                <div class="input"> <input type="checkbox" id="L" name="L">
+                                    <label class="filterLabel" for="L">L</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="XL" name="XL">
+                                    <label class="filterLabel" for="XL">XL</label>
+                                </div>
+                                <div class="input"> <input type="checkbox" id="L" name="L">
+                                    <label class="filterLabel" for="L">L</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="XL" name="XL">
+                                    <label class="filterLabel" for="XL">XL</label>
+                                </div>
+
+
+
+                            </div>
+                            <div class="viewMore">+ View 2 More</div>
+                            <div class="viewLess">View Less</div>
+                            <div class="downBorder"></div>
+                        </div>
+                        <div class="filterBox">
+                            <div class="filterName">
+                                Discounts
+                            </div>
+                            <div class="checkboxes">
+                                <div class="input"><input type="checkbox" id="60%andabove" name="60%andabove">
+                                    <label class="filterLabel" for="60%andabove">60% and above</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="50%andabove" name="65%andabove">
+                                    <label class="filterLabel" for="50%andabove">50% and above</label>
+                                </div>
+                                <div class="input"> <input type="checkbox" id="40%andabove" name="40%andabove">
+                                    <label class="filterLabel" for="40%andabove">40% and above</label>
+                                </div>
+                                <div class="input"><input type="checkbox" id="30%andabove" name="30%andabove">
+                                    <label class="filterLabel" for="30%andabove">30% and above</label>
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="viewMore" style="display: none !important;">+ View 18 More</div>
+                            <div class="viewLess" style="display: none !important;">View Less</div>
+                            <div class="downBorder"></div>
+                        </div>
+
+
+
+                        <!-- Structuring filter for mobile version ...............  -->
+
+
+                        <div class="mobileVersionContainer">
+                            <div class="left">
+                                <div class="leftContainer">
+                                    <div class="priceFilter" id="0"><span>Price Range</span></div>
+                                    <div class="colorFilter" id="1"><span>Color</span></div>
+                                    <div class="sleeveFilter" id="2"><span>Sleeve</span></div>
+                                    <div class="fabricFilter" id="3"><span>Fabric</span></div>
+                                    <div class="neckFilter" id="4"><span>Neck</span></div>
+                                    <div class="patternFilter" id="5"><span>Pattern</span></div>
+                                    <div class="fitFilter" id="6"><span>Fit</span></div>
+                                    <div class="sizeFilter" id="7"><span>Size</span></div>
+                                    <div class="discountFilter" id="8"><span>Discount</span></div>
+                                </div>
+                            </div>
+                            <div class="rightContainer">
+                                <div class="priceFilterCheckboxes" style="display:block">
+                                    <div class="input"><input type="checkbox" id="Below500" name="Below500">
+                                        <label class="filterLabel" for="Below500">Below 500</label>
+                                    </div>
+                                    <div class="input"><input type="checkbox" id="priceRange1" name="priceRange1">
+                                        <label class="filterLabel" for="priceRange1">Rs. 500 to Rs. 1000</label>
+                                    </div>
+                                    <div class="input"> <input type="checkbox" id="priceRange2" name="priceRange2">
+                                        <label class="filterLabel" for="priceRange2"> Rs. 1000 to Rs. 2000</label>
+                                    </div>
+                                    <div class="input"><input type="checkbox" id="priceRange3" name="priceRange3">
+                                        <label class="filterLabel" for="priceRange3"> Above 2000</label>
+                                    </div>
+                                </div>
+                                <div class="colorFilterCheckboxes">
+                                    <div class="input"><input type="checkbox" id="Black" name="Black">
+                                        <label class="filterLabel" for="Black">Black</label>
+                                    </div>
+                                    <div class="input"><input type="checkbox" id="Blue" name="Blue">
+                                        <label class="filterLabel" for="Blue">Blue</label>
+                                    </div>
+                                    <div class="input"> <input type="checkbox" id="White" name="White">
+                                        <label class="filterLabel" for="White">White</label>
+                                    </div>
+                                    <div class="input"><input type="checkbox" id="Olive" name="Olive">
+                                        <label class="filterLabel" for="Olive">Olive</label>
+                                    </div>
+                                    <div class="input"><input type="checkbox" id="Olive" name="Olive">
+                                        <label class="filterLabel" for="Olive">Olive</label>
+                                    </div>
+                                    <div class="input"><input type="checkbox" id="Olive" name="Olive">
+                                        <label class="filterLabel" for="Olive">Olive</label>
+                                    </div>
+                                    <div class="input"><input type="checkbox" id="Olive" name="Olive">
+                                        <label class="filterLabel" for="Olive">Olive</label>
+                                    </div>
+                                    <div class="input"><input type="checkbox" id="Olive" name="Olive">
+                                        <label class="filterLabel" for="Olive">Olive</label>
+                                    </div>
+                                    <div class="input"><input type="checkbox" id="Olive" name="Olive">
+                                        <label class="filterLabel" for="Olive">Olive</label>
+                                    </div>
+                                </div>
+                                <div class="sleeveFilterCheckboxes">
+
+                                    <div class="input"><input type="checkbox" id="Half Sleeve" name="Half Sleeve">
+                                        <label class="filterLabel" for="Half Sleeve">Half Sleeve</label>
+                                    </div>
+                                    <div class="input"><input type="checkbox" id="Full Sleeve" name="Full Sleeve">
+                                        <label class="filterLabel" for="Full Sleeve">Full Sleeve</label>
+                                    </div>
+                                    <div class="input"> <input type="checkbox" id="Short Sleeve" name="Short Sleeve">
+                                        <label class="filterLabel" for="Short Sleeve"> Short Sleeve</label>
+                                    </div>
+                                    <div class="input"><input type="checkbox" id="Long Sleeve" name="Long Sleeve">
+                                        <label class="filterLabel" for="Long Sleeve">Long Sleeve</label>
+                                    </div>
+
+                                </div>
+                                <div class="fabricFilterCheckboxes">
+                                    <div class="input"><input type="checkbox" id="Cotton Blend" name="Cotton Blend">
+                                        <label class="filterLabel" for="Cotton Blend">Cotton Blend</label>
+                                    </div>
+                                    <div class="input"><input type="checkbox" id="100% Cotton" name="100% Cotton">
+                                        <label class="filterLabel" for="100% Cotton">100% Cotton</label>
+                                    </div>
+                                    <div class="input"> <input type="checkbox" id="Single Jersey" name="Single Jersey">
+                                        <label class="filterLabel" for="Single Jersey">Single Jersey</label>
+                                    </div>
+                                    <div class="input"><input type="checkbox" id="Pique" name="Pique">
+                                        <label class="filterLabel" for="Pique"> Pique</label>
+                                    </div>
+                                </div>
+                                <div class="neckFilterCheckboxes">
+                                    <div class="input"><input type="checkbox" id="Round" name="Round">
+                                        <label class="filterLabel" for="Round">Round</label>
+                                    </div>
+                                    <div class="input"><input type="checkbox" id="CrewNeck" name="CrewNeck">
+                                        <label class="filterLabel" for="CrewNeck">Crew Neck</label>
+                                    </div>
+                                    <div class="input"> <input type="checkbox" id="PolloCollar" name="PolloCollar">
+                                        <label class="filterLabel" for="PolloCollar">Pollo Collar</label>
+                                    </div>
+                                    <div class="input"><input type="checkbox" id="Polo" name="Polo">
+                                        <label class="filterLabel" for="Polo"> Polo</label>
+                                    </div>
+                                </div>
+                                <div class="patternFilterCheckboxes">
+                                    <div class="input"><input type="checkbox" id="Printed" name="Printed">
+                                        <label class="filterLabel" for="Printed">Printed</label>
+                                    </div>
+                                    <div class="input"><input type="checkbox" id="Solid" name="Solid">
+                                        <label class="filterLabel" for="Solid">Solid</label>
+                                    </div>
+                                    <div class="input"> <input type="checkbox" id="Print" name="Print">
+                                        <label class="filterLabel" for="Print">Print</label>
+                                    </div>
+                                    <div class="input"><input type="checkbox" id="Stripped" name="Stripped">
+                                        <label class="filterLabel" for="Stripped">Stripped</label>
+                                    </div>
+                                </div>
+                                <div class="fitFilterCheckboxes">
+                                    <div class="input"><input type="checkbox" id="Fit" name="Fit">
+                                        <label class="filterLabel" for="Fit">Fit</label>
+                                    </div>
+                                    <div class="input"><input type="checkbox" id="SlimFit" name="SlimFit">
+                                        <label class="filterLabel" for="SlimFit">Slim Fit</label>
+                                    </div>
+                                    <div class="input"> <input type="checkbox" id="Regular" name="Regular">
+                                        <label class="filterLabel" for="Regular">Regular</label>
+                                    </div>
+                                </div>
+                                <div class="sizeFilterCheckboxes">
+                                    <div class="input"><input type="checkbox" id="S" name="S">
+                                        <label class="filterLabel" for="S"> S</label>
+                                    </div>
+                                    <div class="input"><input type="checkbox" id="M" name="M">
+                                        <label class="filterLabel" for="M">M</label>
+                                    </div>
+                                    <div class="input"> <input type="checkbox" id="L" name="L">
+                                        <label class="filterLabel" for="L">L</label>
+                                    </div>
+                                    <div class="input"><input type="checkbox" id="XL" name="XL">
+                                        <label class="filterLabel" for="XL">XL</label>
+                                    </div>
+
+                                </div>
+                                <div class="discountFilterCheckboxes">
+                                    <div class="input"><input type="checkbox" id="60%andabove" name="60%andabove">
+                                        <label class="filterLabel" for="60%andabove">60% and above</label>
+                                    </div>
+                                    <div class="input"><input type="checkbox" id="50%andabove" name="65%andabove">
+                                        <label class="filterLabel" for="50%andabove">50% and above</label>
+                                    </div>
+                                    <div class="input"> <input type="checkbox" id="40%andabove" name="40%andabove">
+                                        <label class="filterLabel" for="40%andabove">40% and above</label>
+                                    </div>
+                                    <div class="input"><input type="checkbox" id="30%andabove" name="30%andabove">
+                                        <label class="filterLabel" for="30%andabove">30% and above</label>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- dfgb -->
+                </div>
+            </div>
+
+
+
+            <!-- Structuring product Section ...................  -->
+
+
+            <div class="productSection">
+                <div class="productContainer">
+                    <div class="productUpContainer">
+                        <div class="productLabelContainer">
+                            <span class="productLabel">
+                                Mens/T-Shirt
+                            </span>
+                        </div>
+                        <div class="sort">
+                            <div class="sortContainer">
+                                <span class="sortTitle">Sort By Popularity</span>
+                                <img src="icons/ls_dropdown.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hrContainer">
+                        <div class="hrBorder"></div>
+                    </div>
+                    <div class="productDownContainer">
+                        <!-- <div class="downContainer"> -->
+
+                        <!-- seven Boxes has created for showing products -->
+
+
+                        <div class="similarProductBox">
+                            <div class="productImg"><img src="images/jacket-2.jpg"></div>
+                            <div class="namePriceBox">
+                                <div class="nameHeartBox">
+                                    <div class="productTitle">
+                                        JJ x VKF- Falguni Shane peacock
+                                    </div>
+                                    <img class="heart" src="icons/akar-icons_heart (1).svg">
+                                </div>
+                                <div class="priceRatingBox">
+                                    <span class="productCost">
+                                        Rs. 1210-/
+                                    </span>
+                                    <div class="productRating">
+                                        <span class="number">4.5</span>
+                                        <div class="starIcon">
+                                            <img src="icons/emojione_star.svg" alt=""><img src="icons/emojione_star.svg"
+                                                alt=""><img src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/bi_star-half (1).svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                         
+                        <div class="similarProductBox">
+                            <div class="productImg"><img src="images/jacket-5.jpg"></div>
+                            <div class="namePriceBox">
+                                <div class="nameHeartBox">
+                                    <div class="productTitle">
+                                        JJ x VKF- Falguni Shane peacock
+                                    </div>
+                                    <img class="heart" src="icons/akar-icons_heart (1).svg">
+                                </div>
+                                <div class="priceRatingBox">
+                                    <span class="productCost">
+                                        Rs. 1210-/
+                                    </span>
+                                    <div class="productRating">
+                                        <span class="number">4.5</span>
+                                        <div class="starIcon">
+                                            <img src="icons/emojione_star.svg" alt=""><img src="icons/emojione_star.svg"
+                                                alt=""><img src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/bi_star-half (1).svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similarProductBox">
+                            <div class="productImg"><img src="images/shirt-1.jpg"></div>
+                            <div class="namePriceBox">
+                                <div class="nameHeartBox">
+                                    <div class="productTitle">
+                                        JJ x VKF- Falguni Shane peacock
+                                    </div>
+                                    <img class="heart" src="icons/akar-icons_heart (1).svg">
+                                </div>
+                                <div class="priceRatingBox">
+                                    <span class="productCost">
+                                        Rs. 1210-/
+                                    </span>
+                                    <div class="productRating">
+                                        <span class="number">4.5</span>
+                                        <div class="starIcon">
+                                            <img src="icons/emojione_star.svg" alt=""><img src="icons/emojione_star.svg"
+                                                alt=""><img src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/bi_star-half (1).svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similarProductBox">
+                            <div class="productImg"><img src="images/jacket-5.jpg"></div>
+                            <div class="namePriceBox">
+                                <div class="nameHeartBox">
+                                    <div class="productTitle">
+                                        JJ x VKF- Falguni Shane peacock
+                                    </div>
+                                    <img class="heart" src="icons/akar-icons_heart (1).svg">
+                                </div>
+                                <div class="priceRatingBox">
+                                    <span class="productCost">
+                                        Rs. 1210-/
+                                    </span>
+                                    <div class="productRating">
+                                        <span class="number">4.5</span>
+                                        <div class="starIcon">
+                                            <img src="icons/emojione_star.svg" alt=""><img src="icons/emojione_star.svg"
+                                                alt=""><img src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/bi_star-half (1).svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similarProductBox">
+                            <div class="productImg"><img src="images/shirt-1.jpg"></div>
+                            <div class="namePriceBox">
+                                <div class="nameHeartBox">
+                                    <div class="productTitle">
+                                        JJ x VKF- Falguni Shane peacock
+                                    </div>
+                                    <img class="heart" src="icons/akar-icons_heart (1).svg">
+                                </div>
+                                <div class="priceRatingBox">
+                                    <span class="productCost">
+                                        Rs. 1210-/
+                                    </span>
+                                    <div class="productRating">
+                                        <span class="number">4.5</span>
+                                        <div class="starIcon">
+                                            <img src="icons/emojione_star.svg" alt=""><img src="icons/emojione_star.svg"
+                                                alt=""><img src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/bi_star-half (1).svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similarProductBox">
+                            <div class="productImg"><img src="images/jacket-5.jpg"></div>
+                            <div class="namePriceBox">
+                                <div class="nameHeartBox">
+                                    <div class="productTitle">
+                                        JJ x VKF- Falguni Shane peacock
+                                    </div>
+                                    <img class="heart" src="icons/akar-icons_heart (1).svg">
+                                </div>
+                                <div class="priceRatingBox">
+                                    <span class="productCost">
+                                        Rs. 1210-/
+                                    </span>
+                                    <div class="productRating">
+                                        <span class="number">4.5</span>
+                                        <div class="starIcon">
+                                            <img src="icons/emojione_star.svg" alt=""><img src="icons/emojione_star.svg"
+                                                alt=""><img src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/bi_star-half (1).svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similarProductBox">
+                            <div class="productImg"><img src="images/shirt-1.jpg"></div>
+                            <div class="namePriceBox">
+                                <div class="nameHeartBox">
+                                    <div class="productTitle">
+                                        JJ x VKF- Falguni Shane peacock
+                                    </div>
+                                    <img class="heart" src="icons/akar-icons_heart (1).svg">
+                                </div>
+                                <div class="priceRatingBox">
+                                    <span class="productCost">
+                                        Rs. 1210-/
+                                    </span>
+                                    <div class="productRating">
+                                        <span class="number">4.5</span>
+                                        <div class="starIcon">
+                                            <img src="icons/emojione_star.svg" alt=""><img src="icons/emojione_star.svg"
+                                                alt=""><img src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/bi_star-half (1).svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similarProductBox">
+                            <div class="productImg"><img src="images/jacket-2.jpg"></div>
+                            <div class="namePriceBox">
+                                <div class="nameHeartBox">
+                                    <div class="productTitle">
+                                        JJ x VKF- Falguni Shane peacock
+                                    </div>
+                                    <img class="heart" src="icons/akar-icons_heart (1).svg">
+                                </div>
+                                <div class="priceRatingBox">
+                                    <span class="productCost">
+                                        Rs. 1210-/
+                                    </span>
+                                    <div class="productRating">
+                                        <span class="number">4.5</span>
+                                        <div class="starIcon">
+                                            <img src="icons/emojione_star.svg" alt=""><img src="icons/emojione_star.svg"
+                                                alt=""><img src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/bi_star-half (1).svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similarProductBox">
+                            <div class="productImg"><img src="images/shirt-1.jpg"></div>
+                            <div class="namePriceBox">
+                                <div class="nameHeartBox">
+                                    <div class="productTitle">
+                                        JJ x VKF- Falguni Shane peacock
+                                    </div>
+                                    <img class="heart" src="icons/akar-icons_heart (1).svg">
+                                </div>
+                                <div class="priceRatingBox">
+                                    <span class="productCost">
+                                        Rs. 1210-/
+                                    </span>
+                                    <div class="productRating">
+                                        <span class="number">4.5</span>
+                                        <div class="starIcon">
+                                            <img src="icons/emojione_star.svg" alt=""><img src="icons/emojione_star.svg"
+                                                alt=""><img src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/bi_star-half (1).svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similarProductBox">
+                            <div class="productImg"><img src="images/jacket-6.jpg"></div>
+                            <div class="namePriceBox">
+                                <div class="nameHeartBox">
+                                    <div class="productTitle">
+                                        JJ x VKF- Falguni Shane peacock
+                                    </div>
+                                    <img class="heart" src="icons/akar-icons_heart (1).svg">
+                                </div>
+                                <div class="priceRatingBox">
+                                    <span class="productCost">
+                                        Rs. 1210-/
+                                    </span>
+                                    <div class="productRating">
+                                        <span class="number">4.5</span>
+                                        <div class="starIcon">
+                                            <img src="icons/emojione_star.svg" alt=""><img src="icons/emojione_star.svg"
+                                                alt=""><img src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/bi_star-half (1).svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similarProductBox">
+                            <div class="productImg"><img src="images/shirt-1.jpg"></div>
+                            <div class="namePriceBox">
+                                <div class="nameHeartBox">
+                                    <div class="productTitle">
+                                        JJ x VKF- Falguni Shane peacock
+                                    </div>
+                                    <img class="heart" src="icons/akar-icons_heart (1).svg">
+                                </div>
+                                <div class="priceRatingBox">
+                                    <span class="productCost">
+                                        Rs. 1210-/
+                                    </span>
+                                    <div class="productRating">
+                                        <span class="number">4.5</span>
+                                        <div class="starIcon">
+                                            <img src="icons/emojione_star.svg" alt=""><img src="icons/emojione_star.svg"
+                                                alt=""><img src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/bi_star-half (1).svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similarProductBox">
+                            <div class="productImg"><img src="images/jacket-2.jpg"></div>
+                            <div class="namePriceBox">
+                                <div class="nameHeartBox">
+                                    <div class="productTitle">
+                                        JJ x VKF- Falguni Shane peacock
+                                    </div>
+                                    <img class="heart" src="icons/akar-icons_heart (1).svg">
+                                </div>
+                                <div class="priceRatingBox">
+                                    <span class="productCost">
+                                        Rs. 1210-/
+                                    </span>
+                                    <div class="productRating">
+                                        <span class="number">4.5</span>
+                                        <div class="starIcon">
+                                            <img src="icons/emojione_star.svg" alt=""><img src="icons/emojione_star.svg"
+                                                alt=""><img src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/bi_star-half (1).svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similarProductBox">
+                            <div class="productImg"><img src="images/shirt-1.jpg"></div>
+                            <div class="namePriceBox">
+                                <div class="nameHeartBox">
+                                    <div class="productTitle">
+                                        JJ x VKF- Falguni Shane peacock
+                                    </div>
+                                    <img class="heart" src="icons/akar-icons_heart (1).svg">
+                                </div>
+                                <div class="priceRatingBox">
+                                    <span class="productCost">
+                                        Rs. 1210-/
+                                    </span>
+                                    <div class="productRating">
+                                        <span class="number">4.5</span>
+                                        <div class="starIcon">
+                                            <img src="icons/emojione_star.svg" alt=""><img src="icons/emojione_star.svg"
+                                                alt=""><img src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/bi_star-half (1).svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similarProductBox">
+                            <div class="productImg"><img src="images/jacket-5.jpg"></div>
+                            <div class="namePriceBox">
+                                <div class="nameHeartBox">
+                                    <div class="productTitle">
+                                        JJ x VKF- Falguni Shane peacock
+                                    </div>
+                                    <img class="heart" src="icons/akar-icons_heart (1).svg">
+                                </div>
+                                <div class="priceRatingBox">
+                                    <span class="productCost">
+                                        Rs. 1210-/
+                                    </span>
+                                    <div class="productRating">
+                                        <span class="number">4.5</span>
+                                        <div class="starIcon">
+                                            <img src="icons/emojione_star.svg" alt=""><img src="icons/emojione_star.svg"
+                                                alt=""><img src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/bi_star-half (1).svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similarProductBox">
+                            <div class="productImg"><img src="images/shirt-1.jpg"></div>
+                            <div class="namePriceBox">
+                                <div class="nameHeartBox">
+                                    <div class="productTitle">
+                                        JJ x VKF- Falguni Shane peacock
+                                    </div>
+                                    <img class="heart" src="icons/akar-icons_heart (1).svg">
+                                </div>
+                                <div class="priceRatingBox">
+                                    <span class="productCost">
+                                        Rs. 1210-/
+                                    </span>
+                                    <div class="productRating">
+                                        <span class="number">4.5</span>
+                                        <div class="starIcon">
+                                            <img src="icons/emojione_star.svg" alt=""><img src="icons/emojione_star.svg"
+                                                alt=""><img src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/bi_star-half (1).svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similarProductBox">
+                            <div class="productImg"><img src="images/jacket-5.jpg"></div>
+                            <div class="namePriceBox">
+                                <div class="nameHeartBox">
+                                    <div class="productTitle">
+                                        JJ x VKF- Falguni Shane peacock
+                                    </div>
+                                    <img class="heart" src="icons/akar-icons_heart (1).svg">
+                                </div>
+                                <div class="priceRatingBox">
+                                    <span class="productCost">
+                                        Rs. 1210-/
+                                    </span>
+                                    <div class="productRating">
+                                        <span class="number">4.5</span>
+                                        <div class="starIcon">
+                                            <img src="icons/emojione_star.svg" alt=""><img src="icons/emojione_star.svg"
+                                                alt=""><img src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/bi_star-half (1).svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similarProductBox">
+                            <div class="productImg"><img src="images/shirt-1.jpg"></div>
+                            <div class="namePriceBox">
+                                <div class="nameHeartBox">
+                                    <div class="productTitle">
+                                        JJ x VKF- Falguni Shane peacock
+                                    </div>
+                                    <img class="heart" src="icons/akar-icons_heart (1).svg">
+                                </div>
+                                <div class="priceRatingBox">
+                                    <span class="productCost">
+                                        Rs. 1210-/
+                                    </span>
+                                    <div class="productRating">
+                                        <span class="number">4.5</span>
+                                        <div class="starIcon">
+                                            <img src="icons/emojione_star.svg" alt=""><img src="icons/emojione_star.svg"
+                                                alt=""><img src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/bi_star-half (1).svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similarProductBox">
+                            <div class="productImg"><img src="images/jacket-5.jpg"></div>
+                            <div class="namePriceBox">
+                                <div class="nameHeartBox">
+                                    <div class="productTitle">
+                                        JJ x VKF- Falguni Shane peacock
+                                    </div>
+                                    <img class="heart" src="icons/akar-icons_heart (1).svg">
+                                </div>
+                                <div class="priceRatingBox">
+                                    <span class="productCost">
+                                        Rs. 1210-/
+                                    </span>
+                                    <div class="productRating">
+                                        <span class="number">4.5</span>
+                                        <div class="starIcon">
+                                            <img src="icons/emojione_star.svg" alt=""><img src="icons/emojione_star.svg"
+                                                alt=""><img src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/bi_star-half (1).svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similarProductBox">
+                            <div class="productImg"><img src="images/jacket-2.jpg"></div>
+                            <div class="namePriceBox">
+                                <div class="nameHeartBox">
+                                    <div class="productTitle">
+                                        JJ x VKF- Falguni Shane peacock
+                                    </div>
+                                    <img class="heart" src="icons/akar-icons_heart (1).svg">
+                                </div>
+                                <div class="priceRatingBox">
+                                    <span class="productCost">
+                                        Rs. 1210-/
+                                    </span>
+                                    <div class="productRating">
+                                        <span class="number">4.5</span>
+                                        <div class="starIcon">
+                                            <img src="icons/emojione_star.svg" alt=""><img src="icons/emojione_star.svg"
+                                                alt=""><img src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/bi_star-half (1).svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similarProductBox">
+                            <div class="productImg"><img src="images/jacket-5.jpg"></div>
+                            <div class="namePriceBox">
+                                <div class="nameHeartBox">
+                                    <div class="productTitle">
+                                        JJ x VKF- Falguni Shane peacock
+                                    </div>
+                                    <img class="heart" src="icons/akar-icons_heart (1).svg">
+                                </div>
+                                <div class="priceRatingBox">
+                                    <span class="productCost">
+                                        Rs. 1210-/
+                                    </span>
+                                    <div class="productRating">
+                                        <span class="number">4.5</span>
+                                        <div class="starIcon">
+                                            <img src="icons/emojione_star.svg" alt=""><img src="icons/emojione_star.svg"
+                                                alt=""><img src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/emojione_star.svg" alt=""><img
+                                                src="icons/bi_star-half (1).svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-discount">
+          <div class="row">
+            <div class="col-12">
+              <img src="Group 171.png" alt="discount-image" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of discount -->
+      <!-- Starting of description -->
+      <section class="description-section description-margin">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 description-line"> John Johny on Social Media & News</div>
+            <div class="col-12 updation-line">Latest News & Updates</div>
+            <div class="col-12 description-line">2020 clothing trends include mid-length skirts ,feminine pink hue,luxe
+            </div>
+            <div class="col-12 description-line">velvet fabric, trendy athleisure, hot off-the-shoulder tops,</div>
+          </div>
+        </div>
+      </section>
+      <!-- End of description -->
+      <!-- Starting of news card -->
+      <section class="news-card-section newsPage">
+        <div class="container-fluid">
+          <div class="news_container">
+            <!-- Starting of 1st card -->
+            <div class="card news-card-css">
+              <div class="news_img">
+                <img class="news_img_all" src="unsplash_WxVm-UuuBpg.png" alt="">
+              </div>
+              <div class="news_text">
+                <div class="news_date">23 jan 2022</div>
+                <div class="news_title">Shadow of Russian Invasion</div>
+                <div class="news_summary">At Kiton, designer Maria Giovanna Paone described in show notes the muse of her
+                  fall 2022 collection, </div>
+                <div class="aero">
+                  <button type="button" class="news-btn-css"> > </button>
+                </div>
+              </div>
+            </div>
+            <!-- End of 1st card -->
+            <!-- Starting of 2nd card -->
+            <div class="card news-card-css newsPage">
+               <div class="news_img">
+                <img class="news_img_all" src="unsplash_WxVm-UuuBpg.png" alt="">
+              </div>
+              <div class="news_text">
+                <div class="news_date">23 jan 2022</div>
+                <div class="news_title">Shadow of Russian Invasion</div>
+                <div class="news_summary">At Kiton, designer Maria Giovanna Paone described in show notes the muse of her
+                  fall 2022 collection, </div>
+                <div class="aero">
+                  <button type="button" class="news-btn-css"> > </button>
+                </div>
+              </div>
+            </div>
+            <!-- End of 2nd card -->
+            <!-- Starting of 3rd card-->
+            <div class="card news-card-css newsPage">
+              <div class="news_img">
+                <img class="news_img_all" src="unsplash_WxVm-UuuBpg.png" alt="">
+              </div>
+              <div class="news_text">
+                <div class="news_date">23 jan 2022</div>
+                <div class="news_title">Shadow of Russian Invasion</div>
+                <div class="news_summary">At Kiton, designer Maria Giovanna Paone described in show notes the muse of her
+                  fall 2022 collection, </div>
+                <div class="aero">
+                  <button type="button" class="news-btn-css"> > </button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+    <!-- End of news card -->
+
+    <div class="footer">
+        <div class="container header">
+            <div class="row">
+                <h5 class="col-sm-6 col-md-6 col-lg-6 mx-auto"><i class="fas fa-money-bill fa-1x"></i>&nbsp; Cash On
+                    Delivery
+                </h5>
+                <h4 class="col-sm-6 col-md-6 col-lg-2 mx-auto"><i class="fas fa-truck fa-1x"
+                        aria-hidden="true"></i>&nbsp; 15 Days Easy Exchange
+                </h4>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <!--Footer Quiries-->
+                <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="">
+                        <h6 class="footer-heading text-uppercase text-black">order quiries</h6>
+                        <ul class="list-unstyled footer-link mt-4">
+                            <li><a href="">Track Order</a></li>
+                            <li><a href="">Shipping &#38; Handling</a></li>
+                            <li><a href="">Cancellation</a></li>
+                            <li><a href="">Return &#38; Refund Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--Quick Link-->
+                <div class="col-sm-6 col-md-6 col-lg-3 mx-auto">
+                    <div class="">
+                        <h6 class="footer-heading text-uppercase text-black">quick links</h6>
+                        <ul class="list-unstyled footer-link mt-4">
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">FAQ's</a></li>
+                            <li><a href="">Our Protfolio</a></li>
+                            <li><a href="">About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Our Address-->
+
+                <div class="col-sm-6 col-md-6 col-lg-3 mx-auto">
+                    <div class="">
+                        <h6 class="footer-heading text-uppercase text-black">our address</h6>
+                        <p class="list-unstyled footer-link mt-4">
+                        <p>S-210, Sector 63 A Block</p>
+                        <p>Noida 201301</p>
+                        </p>
+                    </div>
+                </div>
+                <!--Order Track-->
+                <div class="col-sm-6 col-md-6 col-lg-3 mx-auto">
+                    <div class="footer-order">
+                        <h6 class="footer-heading text-uppercase text-black">track order</h6>
+                        <input type="text" placeholder="ORDER ID">
+                        <button type="submit" class="btn">Track</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 col-md-6 col-lg-4">
+                    <div class="">
+                        <h6 class="footer-heading1 text-uppercase text-black" style="cursor: pointer;">payments methods
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-soical text-center">
+                <h3>Connect with us on Social Media</h3>
+                <a href="#" class="fab fa-facebook fa-2x"></a>
+                <a href="#" class="fab fa-twitter fa-2x"></a>
+                <a href="#" class="fab fa-instagram fa-2x"></a>
+                <a href="#" class="fab fa-linkedin d fa-2x"></a>
+                <a href="#" class="fab fa-pinterest fa-2x"></a>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row policy">
+            <div class="col-sm-4 col-md-4 col-lg-4">privacy policy</div>
+            <div class="col-sm-4 col-md-4 col-lg-4">Terms & Conditions</div>
+            <div class="col-sm-4 col-md-4 col-lg-4">Cookie Policy</div>
+        </div>
+
+    </div>
+
+    <!-- script Tag  -->
+
+      <script>
+        
+Array.from(document.getElementsByClassName('similarProductBox')).forEach((element)=>{
+
+element.addEventListener('click',()=>{
+               location.href="../productDesc/productDescription.html";
+})
+})
+Array.from(document.getElementsByClassName('newsPage')).forEach((element)=>{
+               
+               element.addEventListener('click', () => {
+               location.href = "../newsPage/jjnewspage.html";
+             })
+             })
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="script/script.js"></script>
+    <!-- <script src="script/navBar.js"></script> -->
+</body>
+
+</html>

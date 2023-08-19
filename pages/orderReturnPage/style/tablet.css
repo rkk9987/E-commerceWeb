@@ -1,0 +1,151 @@
+@media (min-width:481px ) and (max-width:768px){
+
+    :root{
+        --fnt:10px;
+    }
+           
+    /* Styling the Very first Section  */
+ #customerDetail{
+     height: 346px;
+     max-width: 596px;
+ }
+     /* Its the conatiner of Customer Detail section  */
+
+ .detailContainer{
+     height: 295px;
+     flex-direction: column;
+ }
+ .deliveryAddress, .phoneNumber, .emailAddress {
+      
+     font-size: 16px;
+     
+ }
+.customerName,.number, .email ,.address {
+
+     font-size: 13px;
+  
+ }
+          
+    /* Styling the Down Section  */
+
+
+ #productDetails{
+     height: 900px;
+     margin-bottom: 16rem;
+     max-width: 596px;
+ }
+ .productDetailsContainer{
+     height: 97%;
+     width: 91%;
+ }
+
+
+
+        /* Styling the Up Container Of second Section  */
+
+
+
+ .productDetailsContainerUp{
+     flex-direction: column;
+ }
+ .box1{
+     align-items: unset;
+     width: 100%;
+     flex-direction: column;
+     height: 282px;
+ }
+ .productImage{
+     height: 200px;
+     width: 100px;
+     border-radius: 8%;
+ }
+ .productSpecification {
+     width: 100%;
+      height: 304px;
+ }
+ .productName,.deliveryDate,.color, .size, .qty,.confirmation,.price,.actualPrice,.discount{
+     font-size: 14px;
+ }
+ .productName{
+     width: 100%;
+     text-align: start;
+     margin: 12px 0;
+ }
+
+ .productPrice, .productColor,.qty,.deliveryDetails {
+   
+ width: 91%;
+ margin: 5px 0;
+ max-width: 274px;
+ }
+ /* #border {
+    width: 49.54px;
+    top: 27%;
+    left: 19%;;
+} */
+.box1 {
+    height: 305px;
+}
+       
+.deliveryDetails{
+    max-height: 110px;
+}
+   
+ .box2{
+     height: 38%;
+ }
+ .cancel {
+     width: 98px;
+     height: 27px;
+     
+     font-size: 11.4px;
+     
+ }
+
+/* Styling the Down Container Of second Section  */
+
+ .productDetailsContainerDown {
+     display: flex;
+     flex-direction: row;
+     height: 432px;
+     margin: 22px 0;
+     width: 70%;
+     max-width: 312px;
+ }
+
+ .statusContainer, .statusLine, .statusDateContainer {
+     flex-direction: column;
+ }
+
+.statusDateContainer{
+    height: 410px;
+    margin: 9px 0;
+}
+
+ .statusContainer{
+     
+ align-items: start;
+ height: 95%;
+ margin-top: 11px;
+ }
+
+ .statusLine{
+    
+     height: 425px;
+     WIDTH: 30%;
+ }
+
+ .statusLineBorder {
+     border-left: 1px dashed black;
+     height: 19%;
+     width: 0;
+ }
+ .statusOrdered, .statusShipped, .statusOutforDelivery, .statusDelivered {
+     
+     font-size: 15px;
+     line-height: 10px;
+     overflow: hidden;
+     width: 200px;
+     justify-content: unset;
+ }
+}

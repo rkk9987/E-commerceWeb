@@ -1,0 +1,86 @@
+
+@media (min-width:480px) and (max-width:769px){
+    
+.products{
+    width: 100%;
+    margin: 0 auto;
+}
+.productSection{
+    width: 100%;
+   margin-left: 0;
+}
+.productUpContainer {
+     
+    width: 94%;
+}
+.hrContainer {
+ 
+    width: 93.9%;
+}
+.filterBox{
+    display: none;
+}
+.productContainer{
+    margin: 8px auto;
+}
+.productDownContainer{
+    justify-content: center;
+}
+.sort {
+     
+    width: 129px;
+    height: 27px;
+   
+}
+.sortContainer {
+    
+    margin: 2px auto;
+   
+}
+.sortTitle {
+    
+    font-size: 8px;
+    font-weight: 500;
+}
+.similarProductBox {
+    height: 311px;
+    max-width: 206px;
+    width: 31%;
+    margin: 7px 1.1%;
+}
+.productImg{
+    background: #C4C4C4;
+width: 100%;
+height: 243.57px;
+overflow: hidden;
+}
+.productTitle{
+    white-space: nowrap;
+text-overflow: ellipsis;
+overflow: hidden;
+   font-size: 11px;
+   height: auto;
+   font-weight: 400;
+   text-overflow: ellipsis;
+overflow: hidden;
+}
+.nameHeartBox{
+    height: auto;
+}
+.productCost{
+    height: 24px;
+    font-size: 11px;
+}
+.number{
+    height: 18px;
+    font-size: 11px;
+}
+.productRating {
+   height: 22px;
+}
+.priceRatingBox{
+   flex-direction: column;
+   align-items: start;
+   height: 40px;
+}
+}

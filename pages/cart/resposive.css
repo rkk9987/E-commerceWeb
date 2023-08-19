@@ -1,0 +1,149 @@
+@media (min-width: 320px) {
+  .col-md-11.d-flex {
+    margin-top: 48px;
+  }
+  .col-md-4.mt-1.col-auto.d-flex {
+    height: 30px;
+  }
+  .col-md-11.d-flex {
+    margin-top: 23px;
+  }
+
+  .col-md-6 {
+    margin-bottom: 22px;
+  }
+  .row.justify-content-start {
+    margin-top: -29px;
+  }
+
+  p.mt-2 {
+    margin-top: 13px !important;
+  }
+
+  button.btn1 {
+    height: 20px;
+    padding-top: 5px;
+  }
+
+  div#move,
+  #remove {
+    height: 18px;
+  }
+
+ 
+  div#bannerfooter {
+    height: 94px !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .col-md-6 {
+    margin-bottom: 22px;
+  }
+  button.btn1 {
+    margin: 2px;
+  }
+  img#whitecursor {
+    margin-right: 0px;
+  }
+
+  img#whitecursor {
+    margin-right: 0px !important;
+  }
+  div#bannerfooter {
+    height: 92px !important;
+  }
+
+  div#bannerfooter {
+    height: 92px !important;
+  }
+  div#banner {
+    margin-left: 6px;
+  }
+}
+
+@media (min-width:500px) and (max-width:765px) {
+  div#sizeselect {
+    margin-right: 22%;
+}
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  div#right {
+    width: 707px;
+  }
+  div#remove {
+    border-right: 1px solid black;
+  }
+  .row.text-center.pt-2 {
+    height: 54px !important;
+  }
+  div#remove {
+    height: 46px;
+  }
+
+  div#remove {
+    height: 41px;
+  }
+
+  img#whitecursor {
+    margin-right: 29px;
+  }
+
+  img#whitecursor {
+    margin-right: 28px !important;
+  }
+
+  div#bannerfooter {
+    height: 48px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  div#remove {
+    border-right: 1px solid black;
+  }
+  .row.text-center.pt-2 {
+    height: 54px !important;
+  }
+  div#remove {
+    height: 41px;
+  }
+}
+
+@media (min-width: 1280px) {
+  img#whitecursor {
+    margin-right: 18px !important;
+  }
+  div#bannerfooter {
+    height: 49px !important;
+  }
+}
+
+@media (min-width: 1440px) {
+  .col-md-7.left {
+    margin: 21px;
+    margin-top: 30px;
+  }
+  .col-md-4.col-sm-12.right {
+    margin: 21px;
+    margin-top: 30px;
+  }
+  div#remove {
+    border-right: 1px solid black;
+  }
+  div#remove {
+    height: 42px;
+  }
+  div#bannerfooter {
+    height: 49px !important;
+  }
+
+  img#whitecursor {
+    margin-right: 18px !important;
+  }
+}

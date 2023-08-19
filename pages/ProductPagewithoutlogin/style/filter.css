@@ -1,0 +1,443 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+/* styling the filterSection  */
+
+
+.filterSection {
+    background: rgba(241, 210, 182, 0.2);
+    width: 269px;
+    height: 1741px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styling the filterContainer  */
+
+.filterContainer {
+    width: 90%;
+    height: 97%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Stylingthe Container Heading   */
+
+
+.containerHeading {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 25px;
+
+}
+
+/* Stylingthe filter Heading   */
+
+.filterHeading {
+
+    width: 67px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+       cursor: pointer;
+    color: #000000;
+}
+.filterHeadingMobile{
+    display: none;
+}
+/* syling the clear All span in the container  */
+.clearAll,.clearAllMobile {
+    width: auto;
+    height: 20px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+cursor: pointer;
+    color: #0072FF;
+}
+#back,.clearAllMobile{
+    display: none;
+}
+
+/* styling the filter Down Container  */
+
+.filterDownContainer {
+    height: 100%;
+}
+.filterDownContainer::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+
+  .filterDownContainer {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+
+
+.mobileVersionContainer {
+    display: none;
+}
+
+/* styling the filter Boxes   */
+
+
+.filterBox {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    height: 158px;
+    justify-content: space-around;
+    transition: height 1s;
+}
+
+.filterName {
+    width: auto;
+    height: 21px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.checkboxes {
+
+    height: 66%;
+    overflow: hidden;
+}
+
+.filterLabel {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    margin-left: 8px;
+    margin-bottom: 0;
+    height: auto !important;
+    border: none !important;
+}
+
+.viewMore,.viewLess {
+    width: 156px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #0072FF;
+    position: relative;
+    bottom: 6px;
+}
+.viewLess{
+    display: none;
+    position: relative;
+    bottom: 2px;
+}
+.input {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+
+}
+
+.downBorder {
+    border-top: 0.2px solid #C4C4C4;
+    width: 220px;
+}
+
+/* .filterBox:hover{
+   
+    height:auto;
+} */
+
+@media (min-width:320px) and (max-width:480px) {
+
+    .filterHeading,
+    .clearAll {
+        display: none;
+    }
+
+    .sectionContainer {
+        flex-direction: column;
+    }
+
+    .filterSection {
+        /* display: none; */
+        /* margin-top: 12px; */
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .filterContainer {
+        height: auto;
+        align-items: center;
+        width: 100%;
+    }
+
+    .containerHeading {
+        width: 90%;
+        /* justify-content: flex-end; */
+        position: relative;
+        top: 15px;
+        /* height: 50px; */
+        /* box-shadow: 1px 1px 5px grey; */
+    }
+    #back,.clearAllMobile{
+        display: none;
+    }
+.filterHeadingMobile{
+    display: block;
+    width: 62%;
+    min-width: 172px;
+    max-width: 376px;
+}
+    .filterDownContainer {
+        /* display: none; */
+        margin-top: 31px;
+        width: 100%;
+    }
+
+    .filterBox {
+        display: none;
+    }
+
+    .mobileVersionContainer {
+        display: none;
+        height: 100vh;
+
+
+    }
+
+    .left {
+        width: 35%;
+        height: 865px;
+    }
+    .leftContainer {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-height: 484px;
+        min-height: 400px;
+        /* width: 33%; */
+    }
+
+    .priceFilter,
+    .costFilter,
+    .sizeFilter,
+    .sleeveFilter,
+    .colorFilter,
+    .fabricFilter,
+    .fitFilter,
+    .patternFilter,
+    .discountFilter,
+    .neckFilter {
+        font-weight: 500;
+        height: 54px;
+       font-size: 14px;
+        display: flex;
+        align-items: center;
+    }
+    .priceFilter span,
+    .costFilter span,
+    .sizeFilter span,
+    .sleeveFilter span,
+    .colorFilter span,
+    .fabricFilter span,
+    .fitFilter span,
+    .patternFilter span,
+    .discountFilter span,
+    .neckFilter span {
+        margin-left: 20px;
+    }
+    .rightContainer {
+        width: 67%;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 865px;
+    }
+
+    .priceFilterCheckboxes,
+    .costFilterCheckboxes,
+    .sizeFilterCheckboxes,
+    .sleeveFilterCheckboxes,
+    .colorFilterCheckboxes,
+    .fabricFilterCheckboxes,
+    .fitFilterCheckboxes,
+    .patternFilterCheckboxes,
+    .discountFilterCheckboxes,
+    .neckFilterCheckboxes {
+        height: 100%;
+        width: 85%;
+        display: none;
+        margin-top: 11px;
+    }
+    .viewMore{
+        display: none;
+    }
+    .input {
+        margin-bottom: 26px;
+    }
+
+    .filterLabel {
+        font-size: 15px;
+        height: 21px !important;
+        font-weight: 500;
+    }
+}
+
+@media (min-width:480px) and (max-width:769px) {
+
+    .filterHeading,
+    .clearAll {
+        display: none;
+    }
+
+    .sectionContainer {
+        flex-direction: column;
+    }
+
+    .filterSection {
+        /* display: none; */
+        /* margin-top: 12px; */
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .filterContainer {
+        height: auto;
+        align-items: center;
+        width: 100%;
+    }
+
+    .containerHeading {
+        width: 92%;
+        /* justify-content: flex-end; */
+        position: relative;
+        top: 15px;
+    }
+    #back,.clearAllMobile{
+        display: none;
+    }
+.filterHeadingMobile{
+    display: block;
+    width: 77%;
+}
+    .filterDownContainer {
+        /* display: none; */
+        margin-top: 31px;
+        width: 100%;
+    }
+
+    .filterBox {
+        display: none;
+    }
+
+    .mobileVersionContainer {
+        display: none;
+        height: 100vh;
+
+
+    }
+
+    .left {
+        width: 35%;
+        height: 865px;
+    }
+
+    .leftContainer {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-height: 484px;
+        min-height: 400px;
+        /* width: 33%; */
+    }
+
+    .priceFilter,
+    .costFilter,
+    .sizeFilter,
+    .sleeveFilter,
+    .colorFilter,
+    .fabricFilter,
+    .fitFilter,
+    .patternFilter,
+    .discountFilter,
+    .neckFilter {
+        font-weight: 500;
+        height: 54px;
+       
+        display: flex;
+        align-items: center;
+    }
+    .priceFilter span,
+    .costFilter span,
+    .sizeFilter span,
+    .sleeveFilter span,
+    .colorFilter span,
+    .fabricFilter span,
+    .fitFilter span,
+    .patternFilter span,
+    .discountFilter span,
+    .neckFilter span {
+        margin-left: 15px;
+    }
+
+    .rightContainer {
+        width: 67%;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 865px;
+    }
+
+    .priceFilterCheckboxes,
+    .costFilterCheckboxes,
+    .sizeFilterCheckboxes,
+    .sleeveFilterCheckboxes,
+    .colorFilterCheckboxes,
+    .fabricFilterCheckboxes,
+    .fitFilterCheckboxes,
+    .patternFilterCheckboxes,
+    .discountFilterCheckboxes,
+    .neckFilterCheckboxes {
+        height: 100%;
+        width: 85%;
+        display: none;
+        margin-top: 11px;
+    }
+    .viewMore{
+        display: none;
+    }
+    .input {
+        margin-bottom: 26px;
+    }
+
+    .filterLabel {
+        font-size: 15px;
+        height: 21px !important;
+        font-weight: 500;
+    }
+}

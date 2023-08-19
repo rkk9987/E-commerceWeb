@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins';
+  margin: 0;
+  padding: 0;
+}
+
+a:hover{
+  text-decoration: none;
+  color: black;
+}
+.footer {
+  width: 100%;
+  position: relative;
+  background: #f1d2b6;
+  height: 100%;
+  margin-top: 3rem;
+}
+
+hr {
+  border: 1px solid #000000;
+  position: relative;
+  border-bottom: #000000;
+}
+h5 {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Poppins";
+  font-weight: 400;
+  position: absolute;
+}
+h4 {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Poppins";
+  font-weight: 400;
+  position: absolute;
+}
+
+.footer-heading {
+  width: 100%;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 70px;
+  height: 16px;
+}
+.footer-link a,
+p {
+  width: 100%;
+  margin-bottom: 6px;
+  margin-top: 8px;
+  padding-left: 0px;
+  color: #000000;
+  display: block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+}
+.footer .footer-heading1{
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 30px;
+  height: 17px;
+}
+
+input[type="text"] {
+  padding: 15px;
+  margin: 10px 0 10px 0;
+  border-radius: 10px;
+  background: #f1f1f1;
+  height: 46px;
+  width: 250px;
+  border: none;
+  color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.btn {
+  display: flex;
+  background: #07203f;
+  width: 250px;
+  height: 48px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+.btn:hover{
+  color: #f1f1f1;
+}
+.footer .footer-soical {
+  margin-top: 100px;
+}
+.footer .footer-soical h3 {
+  font-size: 24px;
+  line-height: 36px;
+  font-family: "Poppins";
+  font-weight: 300;
+  font-style: normal;
+}
+.footer .footer-soical a {
+  padding: 10px;
+  color: #000000;
+}
+.footer .policy {
+  width: 100%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  justify-content: center;
+  color: #000000;
+}

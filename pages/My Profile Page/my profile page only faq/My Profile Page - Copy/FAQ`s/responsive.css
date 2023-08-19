@@ -1,0 +1,241 @@
+/* sidebar */
+
+
+@media(min-width:320px) and (max-width:425px) {
+
+    .margin_main {
+        margin-top: 66px;
+        padding: 0%;
+        width: 100%
+    }
+    .container-fluid{
+        justify-content:center;
+    }
+
+    .sidebar{
+        margin-bottom:10%;
+        width:97vw !important;
+    }
+
+    .header {
+        width: 100% !important;
+    }
+}
+
+
+/* content */
+
+@media(min-width:320px) and (max-width:424px) {
+    .margin_main {
+        margin-top: 66px;
+    }
+
+    .container-fluid {
+        display: grid;
+        justify-content:center;
+        width:100%;
+    }
+
+    .content {
+        margin-top: 30px;
+        width: 100%;
+        margin-left:0;
+    }
+    .sidebar{
+        width:400px;
+    }
+
+    /* .card_buttons{
+        margin-bottom: 15%;
+    }
+
+    .apply_button{
+        font-size: 4vw;
+    } */
+
+    .del_view_btn {
+        margin-bottom: 20%;
+    }
+
+    .button_class {
+        width: 35vw;
+    }
+}
+
+
+
+
+@media(min-width:425px) and (max-width:768px) {
+    .margin_main {
+        padding: 0 10px;
+        margin-top: 66px;
+    }
+
+    .sidebar {
+        width: 38vw;
+    }
+    
+    .sidebar .header {
+        width: 34vw;
+        display: grid;
+        padding-left: 0px;
+    }
+    .sidebar .header h2 {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+    
+
+    .svg_sty {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    .sidebar .header h2 {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+       
+    }
+
+    .content {
+        width: 57vw;
+    }
+
+    .content_heading h2 {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        padding-left: 0px;
+    }
+
+    /* #apply_button{
+        font-size: 70%;
+    } */
+
+    .whishlist_card {
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        display: flex;
+        overflow: auto;
+    }
+
+    .whishlist_element {
+        /* flex-shrink: 0; */
+        width: 65% !important;
+    }
+
+    #btn_id {
+        border-bottom: 1px solid #A65E46;
+        border-right: none;
+    }
+
+    .del_view_btn {
+        margin-bottom: 20%;
+    }
+
+    .button_class {
+        width: 27vw;
+    }
+}
+
+@media(min-width:768px) and (max-width:1287px) {
+    .margin_main {
+        padding: 0 57px;
+        margin-top: 66px;
+    }
+
+    .sidebar {
+        width: 30vw;
+    }
+    
+
+    .sidebar .header {
+        width: 30vw;
+        display: flex;
+        padding-left: 0px;
+    }
+
+    .svg_sty {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    .sidebar .header h2 {
+        margin-right: 45%;
+        margin-left: auto;
+        display: block;
+    }
+
+    .content {
+        width: 57vw;
+    }
+
+    .content_heading h2 {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        padding-left: 0px;
+    }
+
+    .whishlist_card {
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        display: flex;
+        overflow: auto;
+    }
+
+    .whishlist_element {
+        /* flex-shrink: 0; */
+        width: 65% !important;
+    }
+
+    #btn_id {
+        border-bottom: 1px solid #A65E46;
+        border-right: none;
+    }
+
+    .del_view_btn {
+        margin-bottom: 20%;
+    }
+
+    .button_class {
+        width: 33vw;
+    }
+}
+@media (min-width:1287px) and (max-width:1440px){
+    .content{
+        margin-left:10%;
+    }
+}
+
+
+/* @media(min-width:1024px) and (max-width:1300px) {
+    .margin_main {
+        padding: 0 10px;
+        margin-top: 66px;
+    }
+
+    .sidebar {
+        width: 320px;
+    }
+
+    .sidebar .header {
+        width: 320px;
+    }
+
+    .content {
+        width: 57vw;
+    }
+
+    #save_button {
+        width: 24%;
+    }
+
+    #edit_button {
+        width: 24%;
+    }
+} */

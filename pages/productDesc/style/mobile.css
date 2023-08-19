@@ -1,0 +1,128 @@
+@media (min-width:320px) and (max-width:480px) {
+    /* * {
+        overflow-x: hidden;
+    } */
+
+    .avlComboDownContainer {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .avlComboSubContainer {
+        flex-shrink: 0;
+        width: 83%;
+        margin-right: 10px;
+    }
+
+    .avlComboSubContainer {
+        height: 144px;
+    }
+
+    .comboBox1Container {
+        height: 88%;
+    }
+
+    .img {
+        width: 97%;
+    }
+
+    .productName {
+        height: 60.27px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .namePrice {
+        height: 39%;
+    }
+
+    .productPrice {
+
+        height: 55.38px;
+        font-weight: 400;
+        font-size: 8.92216px;
+
+    }
+
+    .total {
+        font-size: 19.4132px;
+    }
+
+    #underline {
+        width: 51px;
+    }
+   
+    .features {
+        display: none;
+    }
+
+    .similarProducts {
+
+        height: auto;
+    }
+
+    .similarHeading {
+        height: 30px;
+    }
+
+    .similarProductContainer {
+
+        height: 293px;
+        margin: 0;
+    }
+
+    .trendingProductContainer {
+        height: 313px;
+        margin: 0;
+        margin-top: 5rem;
+    }
+
+    .downContainer {
+        overflow-x: auto;
+    }
+
+    .similarProductBox {
+        width: 46%;
+        max-width: 131px;
+        flex-shrink: 0;
+        margin-right: 8px;
+        height: 247px;
+    }
+
+    .productImg {
+        background: #C4C4C4;
+        width: 100%;
+        height: 170.57px;
+        overflow: hidden;
+    }
+
+    .productTitle {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        font-size: 11px;
+        height: auto;
+        font-weight: 400;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .nameHeartBox {
+        height: auto;
+    }
+
+    .productCost {
+        height: 21px;
+        font-size: 11px;
+    }
+
+    .number {
+        height: 18px;
+        font-size: 11px;
+    }
+
+    .priceRatingBox {
+        flex-direction: column;
+        align-items: start;
+    }
+}

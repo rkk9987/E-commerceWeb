@@ -1,0 +1,286 @@
+* {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Col-md-4 */
+.margin_main {
+    margin: 66px auto;
+    padding: 0 57px;
+    max-width: 1381px;
+}
+
+.sidebar {
+    width: 333px;
+}
+
+.svg_sty {
+    margin-right: 30px;
+}
+
+.sidebar .header {
+    background-color: #A65E46;
+    display: flex;
+    align-items: center;
+    width: 333px;
+    height: 65px;
+    padding-left: 44px;
+    /* padding-right: 30px; */
+}
+
+.sidebar .header h2 {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 24px;
+    user-select: none;
+    margin-bottom: 0px;
+}
+
+.sidebar ul {
+    padding: 0%;
+}
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+    padding-left: 44px;
+    border-left: 1px solid #07203F;
+    border-right: 1px solid #07203F;
+    border-bottom: 1px solid #07203F;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.sidebar ul a:hover {
+    background-color: #F1D2B6;
+}
+
+
+/* Content */
+
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    /* padding-right: 57px; */
+    width: 790px !important;
+    justify-content: space-between;
+}
+
+.content_heading {
+    background-color: #A65E46;
+    /* width: 908px; */
+    height: 65px;
+    align-items: center;
+    /* flex-flow: row wrap; */
+    display: flex;
+}
+
+.content_heading h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+
+}
+
+.only-border {
+    border: 1px solid #07203F;
+}
+
+
+.input_name {
+    padding-top: 49px;
+}
+
+form {
+    padding: 0 42px;
+}
+
+form .txt_field {
+
+    position: relative;
+    border-bottom: 2px solid #07203F;
+    margin: 20px 0;
+    overflow: visible;
+}
+
+.txt_field input {
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.txt_field label {
+    position: absolute;
+    top: 40%;
+    left: 5px;
+    color: #07203F;
+    transform: translateY(-50);
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.95s;
+}
+
+.txt_field span::before {
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 0%;
+    height: 2px;
+    background: #A65E46;
+}
+
+.txt_field input:focus~label,
+.txt_field input:valid~label {
+    top: -10px;
+    color: #A65E46;
+}
+
+.txt_field input:focus~span::before,
+.txt_field input:valid~span::before {
+    width: 100%;
+}
+
+.btn {
+    cursor: pointer;
+    margin-top: 56px;
+    margin-bottom: 10%;
+}
+
+#save_button {
+    color: #FFFFFF;
+    background-color: #D9AA90;
+    width: 16%;
+    border-radius: 10px;
+    font-size: 21px;
+    margin-right: 8%;
+}
+
+#edit_button {
+    color: #FFFFFF;
+    background-color: #D9AA90;
+    width: 16%;
+    border-radius: 10px;
+    font-size: 21px;
+}
+
+#save_button:hover {
+    background-color: #07203F;
+    color: #FFFFFF;
+}
+
+#edit_button:hover {
+    background-color: #07203F;
+    color: #FFFFFF;
+}
+
+
+/* my code */
+#headerbutton {
+    color: #ffffff;
+    background-color: #a65e46;
+    border: 1px solid #ffff;
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 37px;
+    border-radius: 10.2857px;
+    margin-right: 89px;
+}
+
+.name-1 {
+    font-weight: 500;
+}
+
+.delete {
+    background-color: #A65E46;
+    color: #ffff;
+    font-size: 15px;
+    width: 80px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 30px;
+    border: 1px solid #A65E46;
+    display: inline-block;
+    margin-left: 0px;
+}
+
+.delete:hover {
+    color: #ffff;
+}
+
+.content_heading {
+    /* display:flex; */
+    justify-content: space-between;
+    padding-left: 39px;
+}
+
+.addressfirst {
+    /* display:flex; */
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.addressfirst img {
+    justify-content: space-evenly;
+    float: right;
+    /* margin-right: 91px !important; */
+}
+.akar_icon {
+    margin-top: 10px;
+}
+
+.headingsaurabh {
+    font-size: 16px;
+    height: 25px;
+}
+
+.adddressdetail {
+    margin-left: 39px;
+    justify-content: space-around;
+    width: 70%;
+    max-width: 300px;
+    /* display:flex; */
+}
+
+.mainheading {
+    margin-left: 0px;
+}
+
+.margin_delete_btn{
+    margin-bottom: 40px;
+}
+
+#saved_checkin{
+    background-color: #F1D2B6;
+}

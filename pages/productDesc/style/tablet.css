@@ -1,0 +1,65 @@
+@media (min-width:769px ) and (max-width:1024px){
+    
+    /* .similarProductContainer {
+        
+        
+       
+    }  */
+    /* *{
+        overflow-x: hidden;
+    } */
+    .total {
+        
+        height: 32px;
+    }
+    #underline {
+        
+        top: -5px;
+    }
+    
+    .avlComboDownContainer{
+        width: 100%;
+        overflow-x: auto;
+    }
+    .avlComboSubContainer{
+   flex-shrink: 0;
+   max-width: 334px;
+    width: 66%;
+   margin-right: 10px;
+    }
+    .similarProducts {
+        
+        height: 986px;
+        
+    }
+    .similarHeading {
+        
+        height: 30px;
+       
+    }
+    .similarProductBox {
+        max-width: 193px;
+        width: 26%;
+        margin-right: 10px;
+    }
+    .productTitle{
+        height: 40px;
+    }
+    .number{
+        height: 18px;
+    }
+      .trendingProductContainer{
+          margin: 0;
+      }
+       .featureBox1,.featureBox2,.featureBox3{
+           justify-content: start;
+       }
+       .featureBox1 img ,.featureBox2 img ,.featureBox3 img {
+           height: 40px;
+           width: 38px;
+       }
+       .featureTitle{
+           font-size: 16px;
+       }
+    
+}

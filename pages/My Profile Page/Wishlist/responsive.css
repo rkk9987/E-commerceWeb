@@ -1,0 +1,223 @@
+/* sidebar */
+
+
+@media(min-width:320px) and (max-width:425px) {
+
+    .margin_main {
+        margin-top: 66px;
+        padding: 0%;
+        width: 100%
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .header {
+        width: 100% !important;
+    }
+}
+
+
+/* content */
+
+@media(min-width:320px) and (max-width:425px) {
+    .margin_main {
+        margin-top: 66px;
+    }
+
+    .container-fluid {
+        display: grid;
+    }
+
+    .content {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    /* .card_buttons{
+        margin-bottom: 15%;
+    }
+
+    .apply_button{
+        font-size: 4vw;
+    } */
+
+    .del_view_btn {
+        margin-bottom: 20%;
+    }
+
+    .button_class {
+        width: 35vw;
+    }
+}
+
+
+
+
+@media(min-width:426px) and (max-width:768px) {
+    .margin_main {
+        padding: 0 10px;
+        margin-top: 66px;
+    }
+
+    .sidebar {
+        width: 30vw;
+    }
+
+    .sidebar .header {
+        width: 30vw;
+        display: grid;
+        padding-left: 0px;
+    }
+
+    .main_name{
+        text-align: center;
+    /* line-height: 16px; */
+        font-size: 15px !important;
+    }
+
+    .svg_sty {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    .sidebar .header h2 {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    .content {
+        width: 57vw;
+    }
+
+    .content_heading h2 {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        padding-left: 0px;
+    }
+
+    /* #apply_button{
+        font-size: 70%;
+    } */
+
+    .whishlist_card {
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        display: flex;
+        overflow: auto;
+    }
+
+    .whishlist_element {
+        /* flex-shrink: 0; */
+        width: 100% !important;
+    }
+
+    #btn_id {
+        border-right: 1px solid #A65E46 !important;
+        border-right: none;
+    }
+
+    .del_view_btn {
+        margin-bottom: 20%;
+    }
+
+    .button_class {
+        width: 27vw;
+    }
+}
+
+@media(min-width:769px) and (max-width:1287px) {
+    .margin_main {
+        padding: 0 10px;
+        margin-top: 66px;
+    }
+
+    .sidebar {
+        width: 30vw;
+    }
+
+    .sidebar .header {
+        width: 30vw;
+        display: grid;
+        padding-left: 0px;
+    }
+
+    .svg_sty {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    .sidebar .header h2 {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    .content {
+        width: 57vw;
+    }
+
+    .content_heading h2 {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        padding-left: 0px;
+    }
+
+    .whishlist_card {
+        flex-wrap: nowrap;
+        flex-shrink: 0;
+        display: flex;
+        overflow: auto;
+    }
+
+    .whishlist_element {
+        /* flex-shrink: 0; */
+        width: 65% !important;
+    }
+
+    #btn_id {
+        border-right: 1px solid #A65E46 !important;
+        border-right: none;
+    }
+
+    .del_view_btn {
+        margin-bottom: 20%;
+    }
+
+    .button_class {
+        width: 33vw;
+    }
+}
+
+/* @media(min-width:1024px) and (max-width:1300px) {
+    .margin_main {
+        padding: 0 10px;
+        margin-top: 66px;
+    }
+
+    .sidebar {
+        width: 320px;
+    }
+
+    .sidebar .header {
+        width: 320px;
+    }
+
+    .content {
+        width: 57vw;
+    }
+
+    #save_button {
+        width: 24%;
+    }
+
+    #edit_button {
+        width: 24%;
+    }
+} */

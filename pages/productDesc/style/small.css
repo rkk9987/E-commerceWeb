@@ -1,0 +1,122 @@
+@media (min-width:480px) and (max-width:769px) {
+   
+    .avlComboDownContainer {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .avlComboSubContainer {
+        flex-shrink: 0;
+        max-width: 334px;
+        width: 66%;
+        margin-right: 10px;
+    }
+
+    .avlComboSubContainer {
+        height: 144px;
+    }
+
+    .comboBox1Container {
+        height: 88%;
+    }
+
+    .img {
+        width: 97%;
+    }
+
+    .productName {
+        height: 60.27px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .namePrice {
+        height: 39%;
+    }
+
+    .productPrice {
+
+        height: 55.38px;
+        font-weight: 400;
+        font-size: 8.92216px;
+
+    }
+
+    .total {
+        font-size: 19.4132px;
+        height: 32px;
+    }
+
+    #underline {
+        width: 51px;
+        top: -5px;
+    }
+
+
+    .featureBox1,
+    .featureBox2,
+    .featureBox3 {
+        justify-content: start;
+    }
+
+    .featureBox1 img,
+    .featureBox2 img,
+    .featureBox3 img {
+        height: 16px;
+        width: 18px;
+    }
+
+    .featureTitle {
+        font-size: 0.7rem;
+    }
+
+    .similarProductContainer {
+        height: 324px;
+    }
+
+    .trendingProductContainer {
+        height: 338px;
+        margin: 0;
+    }
+
+    .similarProducts {
+        height: auto;
+    }
+
+    .similarHeading {
+        height: 31px;
+    }
+
+    .similarProductBox {
+        height: auto;
+        max-width: 148px;
+        width: 35%;
+        margin-right: 10px;
+    }
+
+    .productImg {
+        height: 193.57px;
+        overflow: hidden;
+    }
+
+    .nameHeartBox {
+        height: 45px;
+    }
+
+    .priceRatingBox {
+        height: 22px;
+    }
+
+    .productTitle {
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .productCost {
+        font-size: 12px;
+    }
+
+    .number {
+        height: 18px;
+    }
+}

@@ -1,0 +1,245 @@
+@media (min-width: 320px) and (max-width: 375px) {
+  input#exampleFormControlInput1 {
+    width: 88vw !important;
+    height: 38px;
+    margin-top: 0px;
+  }
+
+  .borderbottom {
+    margin: 0px 10px 10px 4px !important;
+  }
+
+  input#exampleFormControlInput1 {
+    margin: 0px 0 0 10px;
+  }
+  h4.heading1 {
+    margin-left: 9px !important;
+  }
+  button.btn1 {
+    margin-left: 9px;
+    height: 41px;
+    width: 146px;
+    margin-top: 12px;
+  }
+
+  a.resend {
+    margin-top: 4px;
+}
+
+  .inrese {
+    width: auto;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+  .input {
+    margin-left: 18px;
+  }
+
+  .borderbottom {
+    margin: 0px 10px 10px 10px !important;
+  }
+
+  input#exampleFormControlInput1 {
+    width: 88vw;
+    height: 38px;
+    margin-top: 0px;
+  }
+
+  input#exampleFormControlInput1 {
+    margin-top: 0px;
+    margin-left: 31px;
+    margin-bottom: 22px;
+  }
+
+  h4.heading1 {
+    margin-left: 32px;
+  }
+
+  button.btn1 {
+    margin-left: 31px;
+    margin-bottom: 35px;
+    margin-top: -9px;
+  }
+  a.resend {
+    margin-top: -18px;
+  }
+
+  .borderbottom {
+    margin-bottom: 25px !important;
+  }
+
+  input#exampleFormControlInput1 {
+    width: 70vw;
+    height: 38px;
+  }
+  .text {
+    width: 302px !important;
+  }
+
+  .inrese {
+    width: auto;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  input#exampleFormControlInput1 {
+    margin-top: 0px;
+    margin-left: 58px;
+    margin-bottom: 22px;
+  }
+
+  a.resend {
+    margin-top: -13px;
+  }
+
+  .borderbottom {
+    margin-bottom: 23px !important;
+  }
+
+  .borderbottom {
+    margin: 0px 10px 10px 17px !important;
+  }
+
+  h4.heading1 {
+    margin-left: 56px !important;
+  }
+
+  .text {
+    width: 69vw !important;
+    height: 48px;
+  }
+
+  h4.heading1 {
+    margin-left: 30px;
+  }
+
+  button.btn1 {
+    margin-left: 56px;
+    margin-bottom: 35px;
+    margin-top: -5px;
+  }
+
+  .inrese {
+    width: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .text {
+    height: 48px;
+  }
+
+  h4.heading1 {
+    margin-left: 48px !important;
+  }
+
+  input#exampleFormControlInput1 {
+    margin-left: 48px;
+    margin-top: 0px;
+  }
+
+  .borderbottom {
+    margin-bottom: 21px !important;
+  }
+
+  h4.mb-4.heading1 {
+    width: 40vw;
+    margin-left: 29px;
+    margin-bottom: 12px !important;
+  }
+  h4.heading1 {
+    margin-left: 30px;
+  }
+
+  button.btn1 {
+    margin-left: 48px;
+    margin-bottom: 30px;
+    margin-top: -6px;
+  }
+  .inrese {
+    width: 629px !important;
+  }
+  a.resend {
+    margin-top: -15px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .text {
+    width: 40vw;
+    height: 48px;
+    margin-top: 0px !important;
+  }
+
+  input#exampleFormControlInput1 {
+    margin: 20px 20px 20px 45px;
+  }
+  h4.mb-4.heading1 {
+    width: 400px;
+    margin-left: 45px;
+    margin-bottom: 12px !important;
+  }
+
+  .heading1 {
+    width: 40vw;
+    margin-left: 14px;
+    margin-bottom: 12px !important;
+  }
+  .input {
+    width: 629px !important;
+  }
+
+  h4.heading1 {
+    margin-left: 46px;
+  }
+  button.btn1 {
+    margin-left: 48px;
+    margin-top: -6px;
+  }
+
+  a.resend {
+    margin-top: -15px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1440px) {
+  .input {
+    width: 629px !important;
+  }
+  .text {
+    width: 498px !important;
+    height: 48px;
+  }
+
+  h4.heading1 {
+    margin-left: 17px;
+  }
+
+  input#exampleFormControlInput1 {
+    margin: 26px 20px 22px 50px;
+  }
+  h4.heading1 {
+    margin-left: 50px;
+  }
+
+  h4.mb-4.heading1 {
+    width: 40vw;
+    margin-left: 12px;
+    margin-bottom: 12px !important;
+  }
+
+  .heading1 {
+    width: 40vw;
+    margin-left: 14px;
+    margin-bottom: 12px !important;
+  }
+
+  #hieghtfix {
+    width: 629px;
+  }
+  .text {
+    margin-top: 0px !important;
+  }
+}
+

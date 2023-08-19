@@ -1,0 +1,162 @@
+/* for sidebar */
+
+@media(min-width:320px) and (max-width:425px) {
+
+    .margin_main {
+        margin-top: 66px;
+        padding: 0%;
+        width: 100%
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .header {
+        width: 100% !important;
+    }
+}
+
+
+@media(min-width:320px) and (max-width:425px) {
+    .margin_main {
+        margin-top: 66px;
+    }
+
+    .container-fluid {
+        display: grid;
+    }
+
+    .content {
+        margin-top: 30px;
+        width: 94vw;
+    }
+
+    .tabs {
+        text-align: center;
+    }
+
+    #save_button {
+        width: 32%;
+        font-size: 17px;
+        margin-right: 20%;
+    }
+
+    #edit_button {
+        width: 32%;
+        font-size: 17px;
+    }
+
+}
+
+@media(min-width:426px) and (max-width:1023px) {
+    .margin_main {
+        padding: 0 10px;
+        margin-top: 66px;
+    }
+
+    .sidebar {
+        width: 30vw;
+    }
+
+    .main_name{
+        text-align: center;
+    /* line-height: 16px; */
+        font-size: 15px !important;
+    }
+
+    .sidebar .header {
+        width: 30vw;
+        display: grid;
+        padding-left: 0px;
+    }
+
+    .svg_sty {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    .sidebar .header h2 {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+
+    .content {
+        width: 57vw;
+    }
+
+    .content_heading h2 {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        padding-left: 0px;
+    }
+
+    #save_button {
+        width: 50%;
+    }
+
+    #edit_button {
+        width: 50%;
+    }
+
+    .tabs{
+        display: flex;
+    }
+}
+
+/* @media(min-width:769px) and (max-width:1023px) {
+    .margin_main {
+        padding: 0 10px;
+        
+    }
+
+    .sidebar {
+        width: 52vw;
+    }
+
+    .sidebar .header {
+        width: 270px;
+    }
+
+    .content {
+        width: 415px;
+    }
+
+    #save_button {
+        width: 24%;
+    }
+
+    #edit_button {
+        width: 24%;
+    }
+} */
+
+@media(min-width:1024px) and (max-width:1300px) {
+    .margin_main {
+        padding: 0 10px;
+        margin-top: 66px;
+    }
+
+    .sidebar {
+        width: 320px;
+    }
+
+    .sidebar .header {
+        width: 320px;
+    }
+
+    .content {
+        width: 57vw;
+    }
+
+    #save_button {
+        width: 24%;
+    }
+
+    #edit_button {
+        width: 24%;
+    }
+}

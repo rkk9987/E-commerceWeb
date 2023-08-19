@@ -1,0 +1,305 @@
+/* for sidebar */
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .margin_main {
+    margin-top: 66px;
+    padding: 0%;
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .header {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+
+  .adddressdetail {
+    margin-left: 30px;
+  }
+
+  .addressfirst {
+    margin-left: 30px;
+  }
+  .margin_main {
+    margin-top: 66px;
+  }
+
+  .container-fluid {
+    display: inline-block;
+  }
+
+  .content {
+    margin-top: 30px;
+    width: 100% !important;
+  }
+
+  .tabs {
+    text-align: center;
+  }
+
+  #save_button {
+    width: 32%;
+    font-size: 17px;
+    margin-right: 20%;
+  }
+
+  #edit_button {
+    width: 32%;
+    font-size: 17px;
+  }
+  button#headerbutton {
+    margin-right: 30px;
+    width: 100px;
+}
+.akar_icon {
+  margin-top: 9px;
+}
+.akar_icon {
+  margin-right: 30px !important;
+}
+
+.content_heading{
+  padding-left: 30px;
+}
+
+.content_heading h2{
+  margin-bottom: 0%;
+}
+
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  .margin_main {
+    padding: 0 10px;
+    margin-top: 66px;
+  }
+
+  .sidebar {
+    width: 30vw;
+  }
+
+  .main_name{
+    text-align: center;
+/* line-height: 16px; */
+    font-size: 15px !important;
+}
+
+  .sidebar .header {
+    width: 30vw;
+    display: grid;
+    padding-left: 0px;
+  }
+
+  .svg_sty {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
+
+  .sidebar .header h2 {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    display: block;
+  }
+
+  .content {
+    width: 57vw !important;
+  }
+
+  .content_heading h2 {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    padding-left: 0px;
+  }
+
+  #save_button {
+    width: 50%;
+  }
+
+  #edit_button {
+    width: 50%;
+  }
+
+  .tabs {
+    display: flex;
+  }
+
+  button#headerbutton {
+    margin-left: auto;
+  }
+  .addressfirst img{
+    margin-right: 91px !important;
+  }
+  h2 {
+    margin-top: 7px;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1300px) {
+  .margin_main {
+    padding: 0 10px;
+    margin-top: 66px;
+  }
+
+  .sidebar {
+    width: 320px;
+  }
+
+  .sidebar .header {
+    width: 320px;
+  }
+
+  .content {
+    width: 57vw;
+  }
+
+  #save_button {
+    width: 24%;
+  }
+
+  #edit_button {
+    width: 24%;
+  }
+  .adddressdetail {
+    width: 70%;
+    margin-left: 39px;
+}
+.delete{
+  margin-left: 0px;
+}
+.addressfirst img{
+  margin-right: 91px !important;
+}
+h2 {
+  margin-top: 7px;
+}
+}
+
+/*  */
+
+/* @media (min-width: 1025px) and (max-width: 1440px) {
+  span.name-1 {
+    margin-left: 34px;
+    margin-right: 66px;
+  }
+  .addressfirst img{
+    margin-right: 91px !important;
+  }
+} */
+
+
+@media (min-width:768px) and(max-width:1024px) {
+  span.name-1 {
+    margin-left: 34px;
+    margin-right: 66px;
+  }
+
+  .adddressdetail {
+    width: 26vw;
+    margin-left: 11.5vw;
+}
+
+.addressfirst {
+  margin-left: -37px;
+  margin-right: -35px;
+}
+h2 {
+  margin-top: 7px;
+}
+}
+@media (min-width:426px) and (max-width:768px) {
+  .sidebar .header h2 {
+    font-size: 15px !important;
+  }
+  #headerbutton{
+    margin-right: 20px !important;
+    font-size: 11px;
+  }
+  
+  .addressfirst img {
+  margin-right: 19px !important;
+  }
+
+  .content_heading {
+    /* display: flex; */
+    justify-content: space-between;
+    padding-left: 25px;
+}
+
+.addressfirst {
+  margin-left: 25px;
+}
+
+.adddressdetail {
+  margin-left: 25px !important;
+  width: 70% !important;
+  max-width: 300px !important;
+}
+#headerbutton{
+  width: 100px;
+}
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+button#headerbutton {
+  /* margin-left: auto; */
+  margin-right: 40px;
+  width: 115px;
+}
+
+.addressfirst img {
+  margin-right: 40px !important;
+}
+
+}
+
+@media (min-width:1025px) and (max-width:1380px) {
+  button#headerbutton {
+    /* margin-left: auto; */
+    margin-right: 40px;
+    width: 115px;
+  }
+  
+  .addressfirst img {
+    margin-right: 40px !important;
+  }
+  
+  .margin_main {
+    padding: 0 57px;
+    margin-top: 66px;
+}
+
+.content {
+  width: 61% !important;
+}
+
+  }
+
+  @media (min-width:1380px) and (max-width:1440px) {
+
+    #headerbutton{
+      width: 115px;
+      margin-right: 40px;
+    }
+
+    .addressfirst img {
+      margin-right: 40px !important;
+    }
+  }
+
+  @media (min-width:1440px) {
+    #headerbutton{
+      width: 115px;
+      margin-right: 40px;
+    }
+    .addressfirst img {
+      margin-right: 40px !important;
+    }
+  }

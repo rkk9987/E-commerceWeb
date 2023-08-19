@@ -1,0 +1,149 @@
+@media (min-width:320px ) and (max-width:480px){
+
+       :root{
+           --fnt:10px;
+       }
+     /* Styling the first Section  */
+
+    #customerDetail{
+        height: 346px;
+        max-width: 357px;
+        min-width: 310px;
+    }
+
+    .detailContainer{
+        height: 295px;
+        flex-direction: column;
+    }
+    .deliveryAddress, .phoneNumber, .emailAddress {
+         
+        font-size: 16px;
+        
+    }
+   .customerName,.number, .email ,.address {
+ 
+        font-size: 13px;
+     
+    }
+           
+
+    /* Styling the Second Section */
+
+    #productDetails {
+        height: 900px;
+        max-width: 357px;
+        margin: 0 auto;
+        min-width: 310px;
+        margin-bottom: 16rem;
+    }
+
+    .productDetailsContainer{
+        height: 95%;
+        width: 91%;
+    }
+
+
+    /* Styling the UpContainer of Second Section  */
+
+
+    .productDetailsContainerUp{
+        flex-direction: column;
+    }
+    .box1{
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+    .productImage{
+        height: 200px;
+        width: 100px;
+        border-radius: 8%;
+    }
+    .productSpecification {
+        width: 100%;
+         height: 304px;
+    }
+    .productName,.deliveryDate,.color, .size, .qty,.confirmation,.price,.actualPrice,.discount{
+        font-size: 14px;
+    }
+    .productName{
+        width: 100%;
+        text-align: center;
+        margin: 12px 0;
+    }
+   
+    .productPrice, .productColor,.qty,.deliveryDetails {
+      
+    width: 91%;
+    margin: 5px auto;
+    max-width: 274px;
+    }
+    /* #border {
+        width: 49.54px;
+        top: 28%;
+        left: 33%;
+    } */
+          
+     .deliveryDetails{
+         max-height: 110px;
+     }
+     .box1 {
+        height: 305px;
+    }
+    .box2{
+        height: 38%;
+    }
+    .cancel {
+        width: 98px;
+        height: 27px;
+        
+        font-size: 11.4px;
+        
+    }
+            
+
+     /* Styling the DownContainer of Second Section  */
+
+    .productDetailsContainerDown {
+        display: flex;
+        flex-direction: row;
+        height: 420px;
+        margin: 22px 0;
+        width: 100%;
+    }
+
+    .statusContainer, .statusLine, .statusDateContainer {
+        flex-direction: column;
+    }
+
+    
+
+    .statusContainer {
+        position: relative;
+        left: 21%;
+        align-items: start;
+        height: 95%;
+        margin-top: 11px;
+    }
+
+    .statusLine{
+        position: relative;
+        left: -114px;
+        height: 413px;
+        WIDTH: 30%;
+    }
+
+    .statusLineBorder {
+        border-left: 1px dashed black;
+        height: 19%;
+        width: 0;
+    }
+    .statusOrdered, .statusShipped, .statusOutforDelivery, .statusDelivered {
+        
+        font-size: 15px;
+        line-height: 10px;
+        overflow: hidden;
+        width: 200px;
+        justify-content: unset;
+    }
+}

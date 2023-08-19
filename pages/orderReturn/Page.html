@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORDER-RETURN</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            transition: all 0.3;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+
+        .main-div {
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            min-height: 100vh;
+            padding: 2% 2%;
+            max-width: 1400px;
+            margin: auto;
+
+        }
+
+        .drop-downs {
+            width: 60%;
+        }
+
+        .drop-down {
+            width: 561px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+            margin-bottom: 4%;
+        }
+
+        .heading {
+            background: #1B072B;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            padding: 3.5% 2% 3.5% 2%;
+            font-size: 22px;
+            cursor: pointer;
+
+        }
+
+        .heading:hover {
+            background: rgba(27, 7, 43, 0.7);
+        }
+
+        .sign {
+            font-weight: 900;
+            border-right: 1px solid #fff;
+            padding: 0 5%;
+            font-size: 25px;
+
+        }
+
+        .heading-text {
+            padding: 0% 4%;
+        }
+
+        .options {
+            background: #F1D2B6;
+        }
+
+        .options:nth-child(2) {
+            padding: 5% 10%;
+
+        }
+
+        .option {
+            display: flex;
+            align-items: center;
+            padding: 2% 2%;
+
+        }
+
+        .drop-down:nth-child(2)>.options>.option {
+            margin-left: 60px;
+            font-size: 23px;
+            /* padding: 2% 2%; */
+        }
+
+        .option h5 {
+            margin-left: 12px;
+        }
+
+        .reason{
+            margin-left: 32px;
+            font-weight: 200;
+        }
+        .option input[type="radio"] {
+            transform: scale(1.7);
+            accent-color: rgb(27, 7, 43);
+            margin-left: -6%;
+        }
+
+        .option-field {
+            width: 100%;
+            padding-left: 8%;
+            font-size: 23px;
+        }
+
+        .option-fields {
+            display: none;
+            padding: 2% 0;
+
+        }
+
+        .option-fields input {
+            border: none;
+            border-radius: 2px;
+            padding: 2% 2%;
+            outline: none;
+            background: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
+            width: 100%;
+
+        }
+
+        .LineThrough {
+            text-decoration: line-through;
+        }
+
+        .btns {
+            padding: 5% 0%;
+            margin-left: 42px;
+        }
+
+        .btn {
+            cursor: pointer;
+            padding: 1% 4%;
+            border: none;
+            border-radius: 6px;
+            border: 2px solid #1B072B;
+
+        }
+
+
+        .submit,
+        .cancel:hover {
+            color: #fff;
+            background: #1B072B;
+        }
+
+        .cancel,
+        .submit:hover {
+            background: none;
+            color: #1B072B;
+        }
+
+        .cart-card {
+            border: 1px solid black;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+            width: 700px;
+            /* height: 20%; */
+            border-radius: 10px;
+            display: flex;
+            gap: 1.5rem;
+            padding: 1.5% 1.5% 1.5% 2%;
+        }
+
+        .details {
+            padding: 0% 2% 0% 2%;
+        }
+
+        .cart-card .img {
+            width: 40%;
+            background: #C4C4C4;
+            object-fit: cover;
+            height: 130px;
+        }
+
+        .cart-card .img img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .cart-card p {
+            font-weight: 500;
+        }
+
+        .cart-card p:nth-child(2) {
+            padding: 2.5% 0;
+        }
+
+        .cart-card>.details>div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 2% 0;
+        }
+
+        .details p:nth-child(4) {
+            padding: 2% 0;
+        }
+
+
+        .details p:nth-child(4)>span:nth-child(1) {
+            color: yellowgreen;
+            margin-left: 5px;
+        }
+
+        .details p:nth-child(4)>span:nth-child(2) {
+            color: red;
+            margin-left: 5px;
+        }
+
+          @media (min-width:320px ) and (max-width:450px){
+              .reason{
+                  font-size: 19px;
+              }
+              .heading-text{
+                font-size: 21px;
+              }
+          }
+
+        @media screen and (max-width:700px) {
+            .main-div {
+                /* display: flex; */
+                flex-direction: column-reverse;
+                align-items: center;
+                justify-content: start;
+                padding: 0% 4%;
+            }
+
+            .cart-card {
+                width: 100%;
+                margin-top: 3%;
+
+            }
+
+            .drop-downs {
+                width: 100%;
+                padding: 4% 0%;
+            }
+
+            .drop-down {
+                width: 100%;
+            }
+
+            .cart-card .img {
+                width: 110px;
+                padding: 1.5% 2% 1.5% 1.5%;
+            }
+        }
+
+        @media screen and (min-width:700px) and (max-width:1170px) {
+            .main-div {
+                align-items: flex-start;
+                justify-content: space-evenly;
+                padding: 4% 2%;
+                gap: 1rem;
+            }
+
+            .drop-downs {
+                width: 80%;
+            }
+
+            .drop-down {
+                width: 100%;
+            }
+
+            .cart-card {
+                width: 100%;
+
+            }
+
+            .cart-card .img {
+                width: 110px;
+                padding: 1.5% 2% 1.5% 1.5%;
+            }
+
+        }
+
+        @media screen and (min-width:1170px) and (max-width:2040px) {
+            .main-div {
+                align-items: flex-start;
+                justify-content: space-evenly;
+                padding: 4% 2%;
+                gap: 2rem;
+            }
+
+            .drop-downs {
+                width: 80%;
+            }
+
+            .drop-down {
+                width: 100%;
+            }
+
+            .cart-card {
+                width: 100%;
+
+            }
+
+            .cart-card .img {
+                width: 110px;
+                padding: 1.5% 2% 1.5% 1.5%;
+
+            }
+        }
+
+        @media screen and (min-width:2040px) and (max-width:2720px) {
+            .main-div {
+                align-items: flex-start;
+                justify-content: space-evenly;
+                padding: 4% 2%;
+                gap: 2rem;
+            }
+
+            .drop-downs {
+                width: 80%;
+            }
+
+            .drop-down {
+                width: 100%;
+            }
+
+            .cart-card {
+                width: 100%;
+            }
+
+            .cart-card .img {
+                width: 100px;
+                padding: 1.5% 2% 1.5% 1.5%;
+            }
+        }
+    </style>
+
+    <link rel="stylesheet" href="style/navBar.css">
+    <link rel="stylesheet" href="style/myAccount.css">
+</head>
+
+<body>
+
+    <div class="navBarBoxContainer">
+        <div class="navBar">
+     <div class="navBarBox">
+         <div class="navBarContainer">
+             <div class="logoContainer">
+                 <img src="images/logo.svg" alt="" class="companyLogo">
+             </div>
+             <div class="menus">
+
+                 <a href="../ProductPagewithoutlogin/productPageWithoutLogin.html">
+                     <li>MEN WEAR</li>
+                 </a> <a href="../ProductPagewithoutlogin/productPageWithoutLogin.html">
+                     <li>WOMEN WEAR</li>
+                 </a> <a href="../ProductPagewithoutlogin/productPageWithoutLogin.html">
+                     <li>KIDS WEAR</li>
+                 </a> <a href="">
+                     <li>DEALS</li>
+                 </a> <a href="">
+                     <li>ACCESSORIES</li>
+                 </a> <a href="">
+                     <li>NEW ARRIVALS</li>
+                 </a>
+             </div>
+             <div class="searchBar">
+                 <div class="searchBarContainer">
+                     <input class="searchHere" placeholder="search here">
+                     <img class="searchLogo" src="icons/search_black_24dp.svg" alt="Search Logo">
+                 </div>
+             </div>
+             <!-- <input type="text"> -->
+             <div class="accountSection">
+                 <div class="myAccountContainer">
+                     <img class="accountLogo" src="icons/my_account.svg" alt="account logo">
+                     <span class="myAccountTitle">
+                         My Account
+                     </span>
+                 </div>
+                 <div class="cart">
+                     <div class="productNumber">0</div>
+                     <img src="icons/bag.svg" alt="cart Logo" class="cartLogo">
+                     <span class="cartTitle">Cart</span>
+                 </div>
+             </div>
+             <div class="hamBurgerMenu">
+                 <img src="icons/hamBurger.svg" alt="">
+             </div>
+         </div>
+
+         <div class="navDownContainer" style="display: none !important;">
+             <div class="menusMobile">
+                  
+                     <a href= "../ProductPagewithoutlogin/productPageWithoutLogin.html">
+                         <li>MEN WEAR</li>
+                     </a> <a href= "../ProductPagewithoutlogin/productPageWithoutLogin.html">
+                         <li>WOMEN WEAR</li>
+                     </a> <a href= "../ProductPagewithoutlogin/productPageWithoutLogin.html">
+                         <li>KIDS WEAR</li>
+                     </a> <a href= "../ProductPagewithoutlogin/productPageWithoutLogin.html">
+                         <li>DEALS</li>
+                     </a> <a href="">
+                         <li>ACCESSORIES</li>
+                     </a> <a href="">
+                         <li>NEW ARRIVALS</li>
+                     </a>
+                 
+             </div>
+             <div class="accountSectionMobile">
+                 <div class="myAccountContainer">
+                     <img class="accountLogo" src="icons/my_account.svg" alt="account logo">
+                     <span class="myAccountTitle">
+                         My Account
+                     </span>
+                 </div>
+                 <div class="cart">
+                     <div class="productNumber">0</div>
+                     <img src="icons/bag.svg" alt="cart Logo" class="cartLogo">
+                     <span class="cartTitle">Cart</span>
+                 </div>
+             </div>
+         </div>
+     </div>
+        </div>
+    
+ </nav>
+ <section class="myAccountDropDown">
+     <div class="myAccountDropDownContainer">
+         <div class="myAccountUpContainer">
+             <div class="welcomeSignBox">
+                 <div class="welcomeContainer">
+                     Hey, Welcome !!
+                 </div>
+                 <div class="signInContainer">
+                     <button class="signInButton">SIGN IN</button>
+                     <button class="registerButton">REGISTER
+                     </button>
+                 </div>
+             </div>
+         </div>
+         <div class="myAccountDownContainer">
+             <hr>
+             <div class="lists"><a href="../My Profile Page/Wishlist/index.html"><img src="icons/akar-icons_heart (1).svg"><span>
+                Wishlist</span></a></div>
+                <hr>
+    <div class="lists"><a href="../My Profile Page/Order Placed/index.html" > <img src="icons/carbon_order-details.svg"><span>
+                Orders</span></a></div><hr>
+    <div class="lists"><a href="../My Profile Page/discount/discount.html"> <img src="icons/tabler_shopping-cart-discount.svg"><span>
+                Discounts</span></a></div><hr>
+                <div class="lists"><a href="../My Profile Page/discount/discount.html"> <img src="icons/Group (7).svg"><span>
+                    Supercoins</span></a></div><hr>
+    <div class="lists"><a href="../My Profile Page/Saved_address/index.html"> <img src="icons/Vector (5).svg"><span>
+                Saved Address</span> </a></div><hr>
+    <div class="lists"><a href="../My Profile Page/Contact us/index.html"> <img src="icons/cil_contact.svg"><span>
+                Contact us</span></a></div><hr>
+    <div class="lists"><a href="../My Profile Page/FAQ`s/index.html"> <img src="icons/Group (8).svg"><span>
+                FAQ's</span></a></div>
+             
+         </div>
+     </div>
+
+ </section>
+</div> 
+    <div class="main-div">
+
+        <div class="drop-downs">
+            <div class="drop-down">
+                <div class="heading" onclick="showAndHideOptions(this.id)" id="10">
+                    <div class="sign">+</div>
+                    <div class="heading-text">REASON FOR REFUND</div>
+                </div>
+                <div class="options">
+                    <div class="option">
+                        <input type="radio" name="radio-1" id="1" onclick="showOption(this.id)" class="input">
+                        <div class="option-field">
+                            <span class="reason">Got a wrong Size</span>
+                            <div class="option-fields">
+                                <input type="text" name="text-1" id="text-1">
+                                <div class="btns">
+                                    <button class="btn submit">SUBMIT</button>
+                                    <button class="btn cancel">CANCEL</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option">
+                        <!-- <h1>hello</h1> -->
+                        <input type="radio" name="radio-1" id="2" onclick="showOption(this.id)" class="input">
+                        <div class="option-field">
+                            <span class="reason">Got a wrong Color </span>
+                            <div class="option-fields">
+                                <input type="text" name="text-1" id="text-1">
+                                <div class="btns">
+                                    <button class="btn submit">SUBMIT</button>
+                                    <button class="btn cancel">CANCEL</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="radio-1" id="3" onclick="showOption(this.id)" class="input">
+                        <div class="option-field">
+                            <span class="reason">Product Quality is not good</span> 
+                            <div class="option-fields">
+                                <input type="text" name="text-1" id="text-1">
+                                <div class="btns">
+                                    <button class="btn submit">SUBMIT</button>
+                                    <button class="btn cancel">CANCEL</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="radio-1" id="4" onclick="showOption(this.id)" class="input">
+                        <div class="option-field">
+                            <span class="reason">Received a damage product</span>
+                            <div class="option-fields">
+                                <input type="text" name="text-1" id="text-1">
+                                <div class="btns">
+                                    <button class="btn submit">SUBMIT</button>
+                                    <button class="btn cancel">CANCEL</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="radio-1" id="5" onclick="showOption(this.id)" class="input">
+                        <div class="option-field">
+                            <span class="reason">Missing product</span>
+                            <div class="option-fields">
+                                <input type="text" name="text-1" id="text-1">
+                                <div class="btns">
+                                    <button class="btn submit">SUBMIT</button>
+                                    <button class="btn cancel">CANCEL</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="radio-1" id="6" onclick="showOption(this.id)" class="input">
+                        <div class="option-field">
+                            <span class="reason">Received a wrong product</span>
+                            <div class="option-fields">
+                                <input type="text" name="text-1" id="text-1">
+                                <div class="btns">
+                                    <button class="btn submit">SUBMIT</button>
+                                    <button class="btn cancel">CANCEL</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="drop-down">
+                <div class="heading" id="11" onclick="showAndHideOptions(this.id)">
+                    <div class="sign">+</div>
+                    <div class="heading-text">RETURN ACTION</div>
+                </div>
+                <div class="options">
+                   <h3 style="font-weight: 400;">What do you want in return?</h3>
+                    <div class="option">
+                        <input type="radio" name="radio" id="" required>
+                        <span class="reason">Refund</h5>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="radio" id="" required>
+                        <span class="reason">Exchange</h5>
+                    </div>
+                    <div class="btns">
+                        <button class="btn submit">SUBMIT</button>
+                        <button class="btn cancel">CANCEL</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="cart-card">
+            <div class="img">
+                <img src="" alt="">
+            </div>
+            <div class="details">
+                <p>Scratchboard JJ</p>
+                <p>Brand : John Johny</p>
+                <div>
+                    <p>QTY : 1</p>
+                    <p>SIZE : M</p>
+                </div>
+                <p>Rs.700 <span class="LineThrough">Rs. 2100</span> <span>200% OFF</span></p>
+
+            </div>
+        </div>
+        <!-- hello -->
+    </div>
+    <script>
+        const optionFields = document.querySelectorAll(".option-fields");
+        const radios = document.querySelectorAll(".input");
+        function showOption(id) {
+            for (let i = 0; i < optionFields.length; i++) {
+                if (i !== id - 1) {
+                    optionFields[i].style.display = "none";
+                }
+            }
+            if (optionFields[id - 1].style.display === "block") {
+                optionFields[id - 1].style.display = "none";
+                radios[id - 1].checked = false;
+
+            } else {
+                optionFields[id - 1].style.display = "block";
+            }
+        }
+
+        const options = document.querySelectorAll(".options");
+        const sign = document.querySelectorAll(".sign");
+        options[0].style.display = "none";
+        options[1].style.display = "none";
+        function showAndHideOptions(id) {
+            if (options[id - 10].style.display === "none") {
+                options[id - 10].style.display = "block";
+                sign[id - 10].innerHTML = "-";
+            } else {
+                options[id - 10].style.display = "none";
+                sign[id - 10].innerHTML = "+";
+            }
+
+        }
+    </script>
+
+    <!-- navbar -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+        </script>
+
+    <script src="script/navBar.js"></script>
+
+    <script>
+        document.getElementsByClassName('btn submit')[6].addEventListener('click', () => {
+            location.href = "../My Profile Page/Order Placed/index.html";
+        })
+        
+    </script>
+</body>
+
+</html>

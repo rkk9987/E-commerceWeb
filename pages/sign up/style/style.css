@@ -1,0 +1,135 @@
+.container-fluid{
+  max-width: 629px;
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: "Poppins", sans-serif;
+}
+
+.form-control_mine {
+  font-family: "Poppins", sans-serif;
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  background-clip: padding-box;
+  border: 1px solid #07203f;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.35rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* placeholder padding */
+/* input[type="text"]::placeholder {  
+        padding-left: 10px;
+    } 
+    input[type="email"]::placeholder {  
+        padding-left: 10px;
+    }  */
+
+
+
+    
+
+.heading1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+
+.headingsigup{
+  max-width: 629px;
+}
+
+#hieghtfix{
+    background: #FFFFFF;
+    width: 629px;
+}
+
+
+.btn1{
+    font-family: "Poppins", sans-serif;
+    width: 169px;
+    height: 48px;
+    border-radius: 10px;
+    background: #07203F;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    border: 0px;
+}
+
+.borderbottom {
+  width: 629px !important;
+  /* flex-grow: 2; */
+    border-bottom: 1px solid black;
+}
+
+button.btn1 {
+  margin-left: 50px;
+  margin-bottom: 35px;
+  margin-top: 20px;
+}
+
+.text {
+  width: 498px;
+  height: 48px;
+}
+
+input#exampleFormControlInput1 {
+  margin: 20px 20px 22px 50px;
+}
+
+h4.heading1 {
+  margin-left: 50px;
+}
+
+
+.inrese {
+  display: flex;
+  align-items: center;
+  width: 629px;
+    margin-top: 10px !important;
+
+}
+
+.resend {
+  /* Just a little styling to make it pretty */
+  border: none;
+  background: white;
+  color: #D9AA90;
+  margin-left: -80px;
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 20px;
+  color: #D9AA90;
+
+}
+
+.borderbottom {
+  margin-bottom: 27px;
+}
+a.resend {
+  margin-top: -10px;
+}
+
+button.btn1 {
+  margin-top: 0px;
+}

@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+   font-style: normal;
+   overflow-x: hidden;
+    /* background-color:#FFFFFF; */
+}
+ 
+body{
+    background-color: #FFFFFF;
+    /* height: 500px; */
+}
+
+
+
+/* styling first Section  */
+
+#customerDetail{
+z-index: -1;
+    position: relative;
+    width: 94%;
+    height: 222px;
+    max-width: 1296px;
+    top: 70px;
+    background: #F1D2B6;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* styling the first container  */
+
+.detailContainer{
+    display: flex;
+    width: 89%;
+    height: 108px;
+    justify-content: space-between;
+}
+
+/* three detail boxes are created in the first section  */
+
+   /* styling the first detail box  */
+.detail1Container{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 155%;
+    color: #000000;
+}
+.detail1{
+    display: flex;
+    flex-direction: column;
+    max-width: 362px;
+}
+.deliveryAddress,.phoneNumber,.emailAddress{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    overflow: hidden;
+}
+.address{
+    font-weight: 300;
+font-size: 16px;
+ 
+}
+
+/* styling the second detrail box  */
+.detail2{
+    display: flex;
+    flex-direction: column;
+    width: 173px;
+height: 46px;
+}
+
+
+/* styling the second detrail box  */
+
+
+.detail3{
+    width: 186px;
+height: 54px;
+overflow: hidden;
+display: flex;
+    flex-direction: column;
+}
+.number,.email{
+    font-weight: 300;
+font-size: 16px;
+line-height: 120.5%;
+overflow: hidden;
+}
+    
+
+
+   /* styling the second section */
+
+#productDetails{
+    /* z-index: -1; */
+    POSITION: relative;
+    top: 140px;
+    border: 2px solid #A65E46;
+    width: 94%;
+    max-width: 1296px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 347px;
+}
+
+    /* second section container  */
+
+
+.productDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 89%;
+    height: 81%;
+}
+
+
+
+   /* two container are created in the second section  */
+
+       /* styling the upper section */
+
+.productDetailsContainerUp{
+display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+         
+
+     /* upper container is divided into a box1 and delivery details  */
+        /* styling box1 and its components */
+
+.box1{
+    display: flex;
+    justify-content: space-between;
+    width: 67%;
+}
+.productImage{
+    width: 139px;
+    height: 158px;
+    background: #C4C4C4;
+}
+.productSpecification{
+    width: 69%;
+    overflow: hidden;
+}
+.productName{
+    width: 452.52px;
+height: 24.96px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 30px;
+margin-bottom: 12px;
+color: #000000;
+overflow: hidden;
+}
+.productColor{
+    display: flex;
+    justify-content: space-between;
+    width: 328px;
+    margin: 12px 0;
+    max-width: 368px;
+}
+.color,.size,.qty{
+    width: 202.97px;
+    height: 24.96px;
+
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+overflow: hidden;
+}
+.size{
+width: 174.69px;
+text-align: end;
+}
+.qty{
+    width: 174.69px;
+    margin: 12px 0;
+}
+.productPrice{
+    display: flex;
+    justify-content: space-between;
+    width: 295px;
+    margin: 23px 0;
+}
+.price{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;    
+}
+.actualPrice{
+    font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #F1D2B6;
+text-decoration: line-through;
+    text-decoration-color: black;
+    text-decoration-thickness: 2px;
+}
+.discount{
+    width: 126.46px;
+height: 39.52px;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+color: #A65E46;
+}
+ 
+
+
+
+/* styling the delivery details  */
+
+
+
+.deliveryDetails{
+    display: flex;
+    flex-direction: column;
+    width: 29%;
+    justify-content: space-between;
+    height: 83%;
+}
+.deliveryDate{
+    width: 304.45px;
+height: 24.96px;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+overflow: hidden;
+}
+.confirmation{
+    width: 362.68px;
+height: 24.96px;
+font-weight: 275;
+font-size: 18px;
+line-height: 30px;
+overflow: hidden;
+}
+.cancel{
+    width :152px;
+    height: 34px;
+    border: 1px solid #07203F;
+box-sizing: border-box;
+border-radius: 10.2857px;
+    font-weight: 500;
+font-size: 14.4px;
+line-height: 22px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.cancel:hover{
+   cursor: pointer;
+   border: 3px solid blue;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 39%;
+}
+
+
+
+ /* styling the down container */
+
+    
+.productDetailsContainerDown{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* down container is divided in three sub containers */
+    
+.statusContainer,.statusLine,.statusDateContainer{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   width: 92%;
+    margin: 3px auto;
+    overflow: hidden;
+}
+.statusDateContainer{
+    width: 97%;
+}
+
+/* status container is composed of four spans */
+
+.statusOrdered,.statusShipped,.statusOutforDelivery,.statusDelivered{
+    
+    height: 20px;
+    font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+  /* styling all the spans one by one  */
+.statusOrdered{
+    width: 54px;
+}
+.statusShipped{
+    width: 102px;
+    
+}
+.statusOutforDelivery{
+    width: 100px;
+    
+}
+.statusDelivered{
+    width: 62px;
+    
+}
+   
+   /* styling the middle container   */
+
+.circleOrdered{
+    width: 36px;
+height: 36px;
+border-radius: 50%;
+background: #F1D2B6;
+}
+.circleShipped,.circleOutforDelivery,.circleDelivered{
+    width: 36px;
+height: 36px;
+border-radius: 50%;
+background: #fdfdfd;
+border: 1px solid #F1D2B6;
+}
+.statusLineBorder{
+    border-top: 1px dashed black;
+    height: 0px;
+    width: 29%;
+}
+
+
+    /* styling the downmost conyainer */
+
+.statusDate{
+    width: 87px;
+height: 20px;
+font-weight: 300;
+font-size: 13px;
+line-height: 20px;
+ display: flex;
+align-items: center;
+text-align: center;
+}

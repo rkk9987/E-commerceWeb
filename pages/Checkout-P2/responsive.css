@@ -1,0 +1,354 @@
+@media(min-width:320px) and (max-width:425px) {
+
+    /* *{
+        overflow-x: hidden;
+    } */
+    .container1 {
+        margin-top: 64px;
+    }
+
+    #item-1 {
+        width: 100%;
+        height: auto;
+        margin: 0 10px 30px 10px;
+    }
+
+    #item-2 {
+        width: 100%;
+        height: auto;
+        margin: 0 10px 30px 10px;
+    }
+
+    .row12 {
+        padding-left: 40px;
+        padding-right: 0px;
+    }
+
+    .sel-add {
+        padding-left: 70px;
+    }
+
+    .save_cancel_button {
+        text-align: center;
+        display: flex;
+    }
+
+    .save_button {
+        font-size: 14px;
+        width: 72px;
+    }
+
+    .cancel_button {
+        font-size: 13px;
+        width: 72px;
+    }
+
+    .content1 {
+        height: auto;
+        margin-top: 35px;
+    }
+
+    .full-add {
+        bottom: 0;
+    }
+
+    .delete_button {
+        bottom: 2px;
+    }
+
+    .full-add {
+        font-size: 13px;
+    }
+
+    .row1 {
+        margin-top: 13px;
+    }
+
+    .PAYMENT {
+        padding-left: 72px;
+    }
+
+    img.arrow {
+        margin: 0px 26px 0 41px;
+    }
+
+    #vl {
+        height: 750px;
+    }
+
+    .cardIMG {
+        margin-left: 21px;
+    }
+
+    img.arrow {
+        margin: 0;
+    }
+
+    #row22 {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        height: 44px;
+        background-color: #A65E46;
+        padding-right: 46px;
+    }
+
+    .all-details1 {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    #row-div {
+        padding-bottom: 18px;
+    }
+
+    #item-2 {
+        height: 576px;
+    }
+}
+
+@media(min-width:426px) and (max-width:557px) {
+    #vl {
+        height: 682px;
+    }
+
+    .row12 {
+        padding-left: 90px;
+        padding-right: 0px;
+        width: 93%;
+        /* max-width: 94%; */
+    }
+
+    .save_cancel_button {
+        /* text-align: center; */
+        margin-top: 26px;
+        display: flex;
+    }
+
+    .forPadding {
+        margin-top: 32px;
+    }
+
+    #vl {
+        height: 707px;
+    }
+
+    #item-1 {
+        margin: 0 10px 50px 10px;
+    }
+
+    #item-2 {
+        margin: 0 10px 50px 10px;
+    }
+
+    .cardIMG {
+        margin-left: 21px;
+    }
+
+    img.arrow {
+        margin: 0;
+    }
+
+    #row22 {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        height: 44px;
+        background-color: #A65E46;
+        padding-right: 46px;
+    }
+}
+
+@media(min-width:558px) and (max-width:768px) {
+    .row12 {
+        padding-left: 90px;
+        padding-right: 0px;
+        width: 93%;
+    }
+
+    .save_cancel_button {
+        margin-top: 26px;
+        display: flex;
+    }
+
+    .forPadding {
+        margin-top: 32px;
+    }
+
+    #vl {
+        height: 660px;
+    }
+
+    #item-1 {
+        margin: 0 10px 50px 10px;
+        width: 100%;
+    }
+
+    #item-2 {
+        margin: 0 10px 50px 10px;
+        width: 100%;
+    }
+
+    .cardIMG {
+        margin-left: 21px;
+    }
+
+    img.arrow {
+        margin: 0;
+    }
+
+    #row22 {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        height: 44px;
+        background-color: #A65E46;
+        padding-right: 46px;
+    }
+
+}
+
+@media(min-width:769px) and (max-width:1093px) {
+
+    /* *{
+        overflow-x: hidden;
+    } */
+
+    .container1 {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #item-1 {
+        width: 46vw;
+        height: auto;
+        margin: 0 0 0 40px;
+    }
+
+    #item-2 {
+        height: 620px;
+        width: 39vw;
+        margin: 0 40px 0 0;
+    }
+
+    .row12 {
+        padding-left: 69px;
+        padding-right: 21px;
+    }
+
+    .all-details1 {
+        font-size: 15px;
+    }
+
+    .save_cancel_button {
+        display: flex;
+    }
+
+    .full-add {
+        bottom: 0;
+    }
+
+    .cardIMG {
+        margin-left: 21px;
+    }
+
+    img.arrow {
+        margin: 0;
+    }
+
+    #row22 {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        height: 44px;
+        background-color: #A65E46;
+        padding-right: 46px;
+    }
+
+    #vl {
+        height: 707px;
+    }
+
+    .delete_button {
+        bottom: 0;
+    }
+
+    .PAYMENT {
+        padding-left: 70px;
+    }
+}
+
+
+
+@media(min-width:1094px) and (max-width:1380px) {
+
+    .container1 {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #item-1 {
+        width: 46vw;
+        height: auto;
+        margin: 0 0 0 57px;
+    }
+
+    #item-2 {
+        height: 620px;
+        width: 36vw;
+        margin: 0 57px 0 0;
+    }
+
+    .row12 {
+        padding-left: 69px;
+        padding-right: 21px;
+    }
+
+    .all-details1 {
+        font-size: 15px;
+    }
+
+    .save_cancel_button {
+        display: flex;
+    }
+
+    .full-add {
+        bottom: 0;
+    }
+
+    .cardIMG {
+        margin-left: 21px;
+    }
+
+    img.arrow {
+        margin: 0;
+    }
+
+    #row22 {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        height: 44px;
+        background-color: #A65E46;
+        padding-right: 46px;
+    }
+
+    #vl {
+        height: 660px;
+    }
+
+    .delete_button {
+        bottom: 0;
+    }
+
+    .PAYMENT {
+        padding-left: 72px;
+    }
+}
